@@ -1,0 +1,33 @@
+﻿baseURL = "https://routerpipe-byte.github.io/zixia/"
+title = "Zixia Blog"
+theme = "PaperMod"
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[params]
+comments = true
+ShowToc = true
+TocOpen = true
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+
+[languages.zh]
+languageName = "涓枃"
+weight = 1
+contentDir = "content/zh"
+
+[languages.en]
+languageName = "English"
+weight = 2
+contentDir = "content/en"
+
+[languages.es]
+languageName = "Espa帽ol"
+weight = 3
+contentDir = "content/es"
