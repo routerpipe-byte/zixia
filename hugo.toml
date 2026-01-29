@@ -1,4 +1,4 @@
-﻿baseURL = "https://routerpipe-byte.github.io/zixia/"
+baseURL = "https://routerpipe-byte.github.io/zixia/"
 title = "Zixia Blog"
 theme = "PaperMod"
 
@@ -18,7 +18,7 @@ ShowBreadCrumbs = true
 ShowPostNavLinks = true
 
 [languages.zh]
-languageName = "涓枃"
+languageName = "中文"
 weight = 1
 contentDir = "content/zh"
 
@@ -28,6 +28,6 @@ weight = 2
 contentDir = "content/en"
 
 [languages.es]
-languageName = "Espa帽ol"
+languageName = "Español"
 weight = 3
 contentDir = "content/es"
