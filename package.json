@@ -1,0 +1,12 @@
+{
+  "name": "zixia-site-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:i18n": "node scripts/sync-i18n.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "pinyin-pro": "^3.20.4"
+  }
+}
