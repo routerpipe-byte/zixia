@@ -1,8 +1,8 @@
 ---
 title: 你好，Hugo
-date: 2026-01-29
+date: 2026-01-29T00:00:00.000Z
 draft: false
 translationKey: wechat-001
-slug: hanzi-hanzi-hugo
+slug: ni-hao-hugo
 ---
 这是中文版本。
