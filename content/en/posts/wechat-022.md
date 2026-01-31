@@ -3,12 +3,10 @@ title: 西班牙基础教育全景对比：中国家长该知道的真相
 date: 2025-05-24T00:00:00.000Z
 draft: false
 translationKey: wechat-022
-slug: post-17
+slug: post-36
 translationStatus: placeholder
 sourceHash: c3d986f48b0e162d7c343c292f8ed328891191f5
 ---
-原创 zixia 2025-05-24 08:53 西班牙
-
 西班牙实行6至16岁的免费义务教育制度，涵盖6年小学和4年初中阶段。
 
 📚 上课时间与学费差异
@@ -150,7 +148,3 @@ King’s College Madrid（2023）： 约100名毕业生，仅收到4份G5录取
 这一切进步，归功于奋发图强的中国学生，和敬业奉献的中国老师。
 
 📣 落后就要挨打，中国人，永远不要忘记那句：为中华之崛起而读书！
-
-阅读原文
-
-跳转微信打开

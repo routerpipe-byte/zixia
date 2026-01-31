@@ -5,8 +5,6 @@ draft: false
 translationKey: wechat-002
 slug: cong-ya-bo-la-han-de-jia-shi-dao-ying-xiang-quan-qiu-de-wei-yi-shen
 ---
-原创 zixia 2026-01-15 00:29 西班牙
-
 在人类文明的早期，宗教就像是一场乱哄哄的**「创业大赛」**。
 
 最初，祖先们因为胆小，
@@ -266,7 +264,3 @@ slug: cong-ya-bo-la-han-de-jia-shi-dao-ying-xiang-quan-qiu-de-wei-yi-shen
 历史从不是轮回，
 
 而是解释权的无限战争。
-
-阅读原文
-
-跳转微信打开

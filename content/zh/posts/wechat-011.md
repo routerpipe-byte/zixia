@@ -5,8 +5,6 @@ draft: false
 translationKey: wechat-011
 slug: ru-he-zai-xian-wei-wei-cheng-nian-ren-shen-qing-ji-ti-zhu-zhi-zheng-ming
 ---
-原创 zixia 2025-12-12 04:59 西班牙
-
 在西班牙，住址证明（empadronamiento）几乎是最常用的官方文件之一，广泛用于：
 
 未成年人的 居留续签（renovación del menor）
@@ -190,7 +188,3 @@ PDF 文件内容包含：
 🟢 成年人可直接在线“秒出”证明🟢 未成年人必须使用本文方法在线申请🟢 1～3 个工作日即可拿到 PDF 文件，无需跑市政厅这是目前西班牙全国范围内最省时、最有效、最标准化的做法。
 
 西班牙的电子政务还是非常全面，钓鱼证、住址证明、住址更新、交税、电子证书更新、交通罚单、行政处罚申诉等都可以在线解决。
-
-阅读原文
-
-跳转微信打开

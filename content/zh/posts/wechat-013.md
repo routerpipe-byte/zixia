@@ -5,8 +5,6 @@ draft: false
 translationKey: wechat-013
 slug: sip
 ---
-原创 zixia 2025-10-30 19:00 西班牙
-
 最近我在西班牙瓦伦西亚大区 L’Eliana 的社区健康中心（Centre de Salut L’Eliana
 
 最近我在西班牙瓦伦西亚大区 L’Eliana 的社区健康中心（Centre de Salut L’Eliana）亲自经历了一次流程，
@@ -148,7 +146,3 @@ Centre de Salut（社区健康中心）
 适用人群
 
 居住在西班牙的所有人（含外国人）
-
-阅读原文
-
-跳转微信打开

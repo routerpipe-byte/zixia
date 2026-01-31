@@ -3,12 +3,10 @@ title: 欧洲王室的真相：统治各国的，其实是一群德意志人
 date: 2025-12-27T00:00:00.000Z
 draft: false
 translationKey: wechat-010
-slug: post-9
+slug: post-28
 translationStatus: placeholder
 sourceHash: cbad3fcfdbc74f63eb635e9d9bc345e3fe186ad6
 ---
-原创 zixia 2025-12-28 04:47 西班牙
-
 很多人以为，
 
 英国王室是英国人的，
@@ -140,7 +138,3 @@ sourceHash: cbad3fcfdbc74f63eb635e9d9bc345e3fe186ad6
 国家对他们来说，只是“工作地点”。
 
 欧洲的王室不是民族的象征，而是中世纪最早完成“国际化”的一小撮人。
-
-阅读原文
-
-跳转微信打开

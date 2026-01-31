@@ -3,12 +3,10 @@ title: 欧洲曾经“弄丢”过整个文明——古希腊理性知识，为�
 date: 2026-01-08T00:00:00.000Z
 draft: false
 translationKey: wechat-006
-slug: post-6
+slug: post-25
 translationStatus: placeholder
 sourceHash: ff61c2c2bd484bf351921ad45f2601193ce64e80
 ---
-原创 zixia 2026-01-09 04:20 西班牙
-
 中世纪基督教欧洲因语言断裂、教育制度崩溃与宗教垄断，导致希腊数学、哲学与科学系统性中断。相反，希腊知识在拜占庭与伊斯兰世界被完整保存、翻译并发展，最终经跨文明转运重返欧洲，点燃文艺复兴。
 
 很多人会下意识认为：
@@ -321,7 +319,3 @@ sourceHash: ff61c2c2bd484bf351921ad45f2601193ce64e80
 
 历史不是情绪问题，
 而是证据问题。
-
-阅读原文
-
-跳转微信打开

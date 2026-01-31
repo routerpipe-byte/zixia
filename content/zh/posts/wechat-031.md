@@ -5,8 +5,6 @@ draft: false
 translationKey: wechat-031
 slug: b
 ---
-原创 zixia 2024-12-21 01:40 西班牙
-
 一. 理论知识的学习方法
 
 非常不建议直接刷题，因为：
@@ -134,7 +132,3 @@ NIE卡（需在有效期内）。
 官网查询：一般10个小时后可查，成绩查询页面：https://sedeclave.dgt.gob.es/WEB_NOTP_CONSULTA/consultaNota.faces
 
 最后祝您好运，早日通过西班牙汽车驾驶执照的B理论考试，注意需3年内通过路考，过期作废。
-
-阅读原文
-
-跳转微信打开

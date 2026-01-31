@@ -3,12 +3,10 @@ title: 为什么说中文才是最“科学”的语言？正在学西语的我�
 date: 2025-05-16T00:00:00.000Z
 draft: false
 translationKey: wechat-023
-slug: post-18
+slug: post-37
 translationStatus: placeholder
 sourceHash: 084a9831ca4a48394b7c77730496e438cff421b7
 ---
-原创 zixia 2025-05-16 18:16 西班牙
-
 没有动词变位、没有阴阳性、表达高效精准
 中文的逻辑之美，不仅值得惊叹，更值得我们自信。
 
@@ -163,7 +161,3 @@ He runs. / They run.
 我们没有理由磕头，反而有太多理由：
 
 抬头讲好我们的语言故事，讲好中国人的智慧与自信。
-
-阅读原文
-
-跳转微信打开

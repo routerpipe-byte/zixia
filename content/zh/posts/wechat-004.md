@@ -6,8 +6,6 @@ translationKey: wechat-004
 slug: >-
   yong-ke-xue-hui-da-na-xie-zhe-xue-wen-ti-guan-yu-shi-jian-yi-yi-yi-shi-yin-guo-yu-dao-de-de-li-xing-zhong-gou
 ---
-原创 zixia 2026-01-12 03:35 西班牙
-
 人类历史上，有一类问题被反复追问了几千年。
 
 时间是什么？
@@ -229,7 +227,3 @@ slug: >-
 世界反而变得前所未有的清晰、透明且平静。
 
 当问题失效之时，或许正是理解真正开始的地方。
-
-阅读原文
-
-跳转微信打开

@@ -7,8 +7,6 @@ slug: cong-ya-bo-la-han-de-jia-shi-dao-ying-xiang-quan-qiu-de-wei-yi-shen
 translationStatus: translated
 sourceHash: manual
 ---
-原创 zixia 2026-01-15 00:29 España
-
 En los primeros días de la civilización humana, la religión era como una caótica **"competencia de emprendimiento"**.
 
 Al principio, nuestros ancestros, por miedo,

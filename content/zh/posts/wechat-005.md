@@ -5,8 +5,6 @@ draft: false
 translationKey: wechat-005
 slug: gu-dai-zhong-guo-qi-shi-ceng-rang-zheng-ge-ou-zhou-wang-chen-mo-ji
 ---
-原创 zixia 2026-01-10 00:46 西班牙
-
 我们今天习惯性地认为“西方一直领先中国”，但这其实是一种被工业革命结果反向塑造的历史错觉。
 
 一、历史的“后视镜”错觉今天很多中国人有一种几乎不自觉的潜意识：
@@ -303,7 +301,3 @@ slug: gu-dai-zhong-guo-qi-shi-ceng-rang-zheng-ge-ou-zhou-wang-chen-mo-ji
 
 看清来路，
 才能找准去向。
-
-阅读原文
-
-跳转微信打开

@@ -5,8 +5,6 @@ draft: false
 translationKey: wechat-009
 slug: ex
 ---
-原创 zixia 2026-01-02 22:45 西班牙
-
 一、递签时间要求项目
 
 说明
@@ -303,7 +301,3 @@ Firma del/de la autorizante:
 Firma del/de la representante:
 
 [NOMBRE DEL REPRESENTANTE]
-
-阅读原文
-
-跳转微信打开

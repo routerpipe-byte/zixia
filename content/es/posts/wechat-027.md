@@ -3,12 +3,10 @@ title: 千年王八，万年龟？我们到底还要“想当然”到几时？
 date: 2025-04-04T00:00:00.000Z
 draft: false
 translationKey: wechat-027
-slug: post-20
+slug: post-39
 translationStatus: placeholder
 sourceHash: 76daa2a342e25eef16183fb3c1691ff07135857d
 ---
-原创 zixia 2025-04-04 21:22 西班牙
-
 “千年王八，万年龟”这句老话，几乎人人都听过。龟、鳖在中国文化中被视为长寿的象征，仿佛天生就能活过好几代人。
 
 但问题来了：真的有活了一千年的“王八”吗？
@@ -107,7 +105,3 @@ sourceHash: 76daa2a342e25eef16183fb3c1691ff07135857d
 不要再“听说过”就变成“我信了”。
 
 从今天开始，告别“想当然”，走进讲逻辑、讲证据、讲思考的世界。
-
-阅读原文
-
-跳转微信打开
