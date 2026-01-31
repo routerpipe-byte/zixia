@@ -90,11 +90,20 @@ async function downloadFile(url, outPath) {
   fs.writeFileSync(outPath, buf);
 }
 
+function decodeHtmlEntities(s) {
+  return String(s)
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
 function extractImgUrls(html) {
   const urls = [];
   const re = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
   let m;
-  while ((m = re.exec(html))) urls.push(m[1]);
+  while ((m = re.exec(html))) urls.push(decodeHtmlEntities(m[1]));
   return urls;
 }
 
@@ -114,8 +123,9 @@ async function main() {
     process.exit(2);
   }
 
-  const data = await fetchJson(url);
-  if (!Array.isArray(data)) throw new Error('Expected JSON array');
+  const resp = await fetchJson(url);
+  const data = Array.isArray(resp) ? resp : resp?.data;
+  if (!Array.isArray(data)) throw new Error('Expected JSON array at resp or resp.data');
 
   const repoRoot = path.join(__dirname, '..');
   const contentRoot = path.join(repoRoot, 'content');
@@ -125,11 +135,10 @@ async function main() {
   ensureDir(staticImgRoot);
 
   let n = 0;
-  for (const item of data.slice(0, 1)) {
-    // For now: import only first item as a smoke test.
+  for (const item of data) {
     const translationKey = `wechat-${String(n + 1).padStart(3, '0')}`;
-    const created = item.created ? new Date(item.created * 1000) : new Date();
-    const date = created.toISOString().slice(0, 10);
+    const created = item.created ? new Date(item.created) : new Date();
+    const date = isNaN(created.getTime()) ? new Date().toISOString().slice(0, 10) : created.toISOString().slice(0, 10);
 
     const zhTitle = item.title || translationKey;
     const enTitle = zhTitle; // TODO: translate
