@@ -1,16 +1,11 @@
 #!/usr/bin/env node
 
 /**
- * sync-i18n.mjs (Phase 1)
+ * sync-i18n.mjs
  *
- * Current scope (per requirements):
- * - Traverse zh posts
- * - Ensure front matter is parsed safely
- * - Auto-generate zh slug (pinyin, lowercase, dash-separated; NO DIGITS)
- * - Auto-generate translationKey (stable; same across langs)
- * - Write back UTF-8 (no BOM)
- *
- * Later phases will generate en/es + translation + caching.
+ * Phase 1 (DONE): zh -> ensure slug + translationKey (UTF-8 no BOM writes)
+ * Phase 2 (NOW): generate/update en/es files. If OPENAI_API_KEY is absent, keep
+ *                placeholder copies but mark them and avoid pretending they're translated.
  */
 
 import fs from 'fs';
@@ -30,10 +25,8 @@ function stripBom(s) {
 }
 
 function slugifyLatin(input) {
-  // NFKD splits accents; strip diacritics.
   let s = String(input).normalize('NFKD').replace(/\p{M}+/gu, '');
   s = s.toLowerCase();
-  // Keep a-z/0-9 for now; we will drop digits afterwards (policy: no digits in URL)
   s = s.replace(/[^a-z0-9]+/g, '-');
   s = s.replace(/-+/g, '-').replace(/^-|-$/g, '');
   return s;
@@ -46,16 +39,9 @@ function toZhPinyinSlug(title) {
     separator: '-',
     nonZh: 'consecutive',
   });
-  // Remove digits entirely ("URL 不要数字")
   const noDigits = py.replace(/[0-9]+/g, ' ');
   const slug = slugifyLatin(noDigits).replace(/[0-9]+/g, '');
   return slug || 'post';
-}
-
-function stableTranslationKey(filePathRelToContentRoot) {
-  // Stable across renames within the repo? Use relative path hash.
-  const h = crypto.createHash('sha1').update(String(filePathRelToContentRoot)).digest('hex');
-  return `t_${h.slice(0, 10)}`;
 }
 
 function ensureUniqueSlug(baseSlug, used) {
@@ -74,11 +60,12 @@ function writeMarkdownWithFrontMatter(filePath, data, body) {
   fs.writeFileSync(filePath, out, { encoding: 'utf8' });
 }
 
-function loadExistingSlugs(zhPostsDir) {
+function loadExistingSlugs(postsDir) {
   const used = new Set();
-  for (const name of fs.readdirSync(zhPostsDir)) {
+  if (!fs.existsSync(postsDir)) return used;
+  for (const name of fs.readdirSync(postsDir)) {
     if (!name.endsWith('.md')) continue;
-    const full = path.join(zhPostsDir, name);
+    const full = path.join(postsDir, name);
     const raw = stripBom(fs.readFileSync(full, 'utf8'));
     const parsed = matter(raw);
     const slug = parsed.data?.slug;
@@ -87,68 +74,173 @@ function loadExistingSlugs(zhPostsDir) {
   return used;
 }
 
-function walkZhPosts() {
-  const zhPostsDir = path.join(__dirname, '..', 'content', 'zh', 'posts');
+function sha1(s) {
+  return crypto.createHash('sha1').update(String(s)).digest('hex');
+}
+
+function readMd(filePath) {
+  const raw = stripBom(fs.readFileSync(filePath, 'utf8'));
+  return matter(raw);
+}
+
+function ensureDir(p) {
+  fs.mkdirSync(p, { recursive: true });
+}
+
+function isTranslatedPlaceholder(data) {
+  return data?.translationStatus === 'placeholder';
+}
+
+async function maybeTranslate({ text, targetLang }) {
+  if (!process.env.OPENAI_API_KEY) return null;
+  const { translateText } = await import('./translate.mjs');
+  return translateText({ text, targetLang });
+}
+
+async function upsertLangVersion({
+  lang,
+  targetLangName,
+  zh,
+  outPath,
+  usedSlugs,
+}) {
+  const zhData = zh.data || {};
+  const zhBody = zh.content || '';
+
+  let data = {
+    ...zhData,
+    // Force language-specific fields
+    title: zhData.title,
+    slug: undefined,
+    translationStatus: undefined,
+    sourceHash: undefined,
+  };
+
+  // Slug policy: use latin slug for en/es, remove digits.
+  const baseSlug = slugifyLatin(String(zhData.title)).replace(/[0-9]+/g, '') || 'post';
+  data.slug = ensureUniqueSlug(baseSlug, usedSlugs);
+
+  // Ensure translationKey exists (must match zh)
+  if (!data.translationKey) {
+    data.translationKey = path.basename(outPath, path.extname(outPath));
+  }
+
+  // Incremental: avoid re-translate if zh unchanged and target already translated.
+  const currentSourceHash = sha1(zhBody);
+
+  let bodyOut = zhBody;
+  const prevExists = fs.existsSync(outPath);
+  if (prevExists) {
+    const prev = readMd(outPath);
+    const prevData = prev.data || {};
+    const prevBody = prev.content || '';
+
+    // keep existing translated title/body if already translated and sourceHash matches
+    if (prevData.sourceHash === currentSourceHash && !isTranslatedPlaceholder(prevData)) {
+      // Keep previous content, but update meta fields like translationKey/date/draft
+      bodyOut = prevBody;
+      data.title = prevData.title || data.title;
+      data.slug = prevData.slug || data.slug;
+      data.translationStatus = prevData.translationStatus;
+      data.sourceHash = prevData.sourceHash;
+    }
+  }
+
+  if (!data.sourceHash) data.sourceHash = currentSourceHash;
+
+  // Try translation if key present.
+  if (process.env.OPENAI_API_KEY) {
+    const translated = await maybeTranslate({ text: zhBody, targetLang: targetLangName });
+    if (translated) {
+      bodyOut = translated;
+      const titleTranslated = await maybeTranslate({ text: String(zhData.title), targetLang: targetLangName });
+      if (titleTranslated) data.title = titleTranslated;
+      data.translationStatus = 'translated';
+    }
+  }
+
+  if (!data.translationStatus) {
+    // No key: mark placeholders so you can see they are NOT translated.
+    data.translationStatus = 'placeholder';
+  }
+
+  ensureDir(path.dirname(outPath));
+  writeMarkdownWithFrontMatter(outPath, data, bodyOut);
+  console.log(`OK: ${lang} ${path.relative(process.cwd(), outPath)} status=${data.translationStatus}`);
+}
+
+async function main() {
+  const contentRoot = path.join(__dirname, '..', 'content');
+  const zhPostsDir = path.join(contentRoot, 'zh', 'posts');
   if (!fs.existsSync(zhPostsDir)) {
     console.log(`No zh posts dir: ${zhPostsDir}`);
     return;
   }
 
-  const usedSlugs = loadExistingSlugs(zhPostsDir);
-  const contentRoot = path.join(__dirname, '..', 'content');
+  const usedZhSlugs = loadExistingSlugs(zhPostsDir);
+  const usedEnSlugs = loadExistingSlugs(path.join(contentRoot, 'en', 'posts'));
+  const usedEsSlugs = loadExistingSlugs(path.join(contentRoot, 'es', 'posts'));
 
   for (const name of fs.readdirSync(zhPostsDir)) {
     if (!name.endsWith('.md')) continue;
-
     const full = path.join(zhPostsDir, name);
-    const raw = stripBom(fs.readFileSync(full, 'utf8'));
 
-    let parsed;
+    let zh;
     try {
-      parsed = matter(raw);
+      zh = readMd(full);
     } catch (e) {
       console.warn(`Skip (front matter parse error): ${full}`);
       console.warn(String(e));
       continue;
     }
 
-    const data = { ...(parsed.data || {}) };
-    const body = parsed.content || '';
-
+    const data = { ...(zh.data || {}) };
+    const body = zh.content || '';
     if (!data.title) {
       console.warn(`Skip (no title): ${full}`);
       continue;
     }
 
-    // translationKey
+    // translationKey - keep basename compatibility (wechat-XXX)
     if (!data.translationKey) {
-      // Prefer basename for compatibility with imported wechat-XXX across languages.
-      const base = path.basename(full, path.extname(full));
-      data.translationKey = base;
+      data.translationKey = path.basename(full, path.extname(full));
     }
 
-    // slug
-    if (!data.slug) {
+    // zh slug
+    if (!data.slug || /^hanzi-hanzi(?:-[a-z]+)?$/i.test(String(data.slug))) {
       const baseSlug = toZhPinyinSlug(data.title);
-      data.slug = ensureUniqueSlug(baseSlug, usedSlugs);
+      data.slug = ensureUniqueSlug(baseSlug, usedZhSlugs);
     } else {
-      // If slug looks like a placeholder from importer (e.g. "hanzi-hanzi"), regenerate.
-      const isPlaceholder = /^hanzi-hanzi(?:-[a-z]+)?$/i.test(String(data.slug));
-      if (isPlaceholder) {
-        const baseSlug = toZhPinyinSlug(data.title);
-        data.slug = ensureUniqueSlug(baseSlug, usedSlugs);
-      } else {
-        // Enforce policy: no digits.
-        const cleaned = slugifyLatin(String(data.slug)).replace(/[0-9]+/g, '');
-        if (cleaned && cleaned !== data.slug) {
-          data.slug = ensureUniqueSlug(cleaned, usedSlugs);
-        }
+      const cleaned = slugifyLatin(String(data.slug)).replace(/[0-9]+/g, '');
+      if (cleaned && cleaned !== data.slug) {
+        data.slug = ensureUniqueSlug(cleaned, usedZhSlugs);
       }
     }
 
-    writeMarkdownWithFrontMatter(full, data, body);
-    console.log(`OK: ${path.relative(process.cwd(), full)} slug=${data.slug} translationKey=${data.translationKey}`);
+    // Write back zh if changed.
+    const zhOut = matter.stringify(body, data);
+    fs.writeFileSync(full, zhOut, { encoding: 'utf8' });
+
+    // Generate en/es.
+    const key = String(data.translationKey);
+    const enPath = path.join(contentRoot, 'en', 'posts', `${key}.md`);
+    const esPath = path.join(contentRoot, 'es', 'posts', `${key}.md`);
+
+    await upsertLangVersion({
+      lang: 'en',
+      targetLangName: 'English',
+      zh: { data, content: body },
+      outPath: enPath,
+      usedSlugs: usedEnSlugs,
+    });
+    await upsertLangVersion({
+      lang: 'es',
+      targetLangName: 'Spanish',
+      zh: { data, content: body },
+      outPath: esPath,
+      usedSlugs: usedEsSlugs,
+    });
   }
 }
 
-walkZhPosts();
+await main();
