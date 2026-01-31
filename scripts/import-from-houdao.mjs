@@ -67,6 +67,7 @@ function frontMatter({ title, date, translationKey, slug }) {
 
 import TurndownService from 'turndown';
 import { gfm } from 'turndown-plugin-gfm';
+import { JSDOM } from 'jsdom';
 
 function cleanWeChatBoilerplate(md) {
   let s = String(md || '');
@@ -83,6 +84,33 @@ function cleanWeChatBoilerplate(md) {
   return s.trim() + '\n';
 }
 
+function htmlTableToGfm(node) {
+  const rows = Array.from(node.querySelectorAll('tr'));
+  if (!rows.length) return '';
+
+  const grid = rows.map((tr) =>
+    Array.from(tr.querySelectorAll('th,td')).map((cell) =>
+      // preserve basic inline styles inside cells via innerHTML -> turndown will handle, but we keep as text here
+      (cell.textContent || '').replace(/\s+/g, ' ').trim(),
+    ),
+  );
+
+  // normalize column count
+  const cols = Math.max(...grid.map((r) => r.length));
+  for (const r of grid) while (r.length < cols) r.push('');
+
+  const header = grid[0];
+  const body = grid.slice(1);
+
+  const esc = (s) => String(s).replace(/\|/g, '\\|');
+  const line = (cells) => `| ${cells.map((c) => esc(c)).join(' | ')} |`;
+  const sep = `| ${new Array(cols).fill('---').join(' | ')} |`;
+
+  let out = line(header) + '\n' + sep + '\n';
+  for (const r of body) out += line(r) + '\n';
+  return out + '\n';
+}
+
 function htmlToMd(html) {
   const turndown = new TurndownService({
     codeBlockStyle: 'fenced',
@@ -95,12 +123,25 @@ function htmlToMd(html) {
 
   // Preserve inline styles (size/color) by keeping span tags as HTML.
   turndown.keep(['span', 'sub', 'sup', 'u']);
-
-  // Preserve blockquotes reliably
-  // (Turndown already handles <blockquote>, but keep common wrappers)
   turndown.keep(['blockquote']);
 
-  const md = turndown.turndown(String(html || ''));
+  // Convert tables to GFM tables (WeChat often uses <table> heavily)
+  turndown.addRule('tableToGfm', {
+    filter: (node) => node.nodeName === 'TABLE',
+    replacement: (_content, node) => {
+      try {
+        return htmlTableToGfm(node);
+      } catch {
+        // Fallback: keep plain text to avoid losing content
+        return `\n\n${(node.textContent || '').trim()}\n\n`;
+      }
+    },
+  });
+
+  // Turndown runs without a DOM; provide one so table conversion works reliably.
+  const dom = new JSDOM(String(html || ''));
+  const body = dom.window.document.body;
+  const md = turndown.turndown(body.innerHTML);
   return cleanWeChatBoilerplate(md);
 }
 
