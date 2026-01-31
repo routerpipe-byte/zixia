@@ -124,6 +124,7 @@ function htmlToMd(html) {
   // Preserve inline styles (size/color) by keeping span tags as HTML.
   turndown.keep(['span', 'sub', 'sup', 'u']);
   turndown.keep(['blockquote']);
+  turndown.keep(['font']);
 
   // Convert tables to GFM tables (WeChat often uses <table> heavily)
   turndown.addRule('tableToGfm', {
@@ -219,6 +220,16 @@ async function main() {
     const html = String(item.content || '');
     const htmlLocal = replaceImgsWithLocal(html, translationKey);
     const mdBody = htmlToMd(htmlLocal);
+
+    // Raw artifact for AI formatting pass
+    const rawDir = path.join(contentRoot, 'raw');
+    ensureDir(rawDir);
+    const rawPath = path.join(rawDir, `${translationKey}.raw.json`);
+    fs.writeFileSync(
+      rawPath,
+      JSON.stringify({ translationKey, title: zhTitle, date, html: htmlLocal, markdown_raw: mdBody }, null, 2) + '\n',
+      'utf8',
+    );
 
     const zhPath = path.join(contentRoot, 'zh', 'posts', `${translationKey}.md`);
     const enPath = path.join(contentRoot, 'en', 'posts', `${translationKey}.md`);
