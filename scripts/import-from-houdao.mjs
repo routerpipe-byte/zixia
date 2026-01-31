@@ -65,16 +65,43 @@ function frontMatter({ title, date, translationKey, slug }) {
     `---\n`;
 }
 
+import TurndownService from 'turndown';
+import { gfm } from 'turndown-plugin-gfm';
+
+function cleanWeChatBoilerplate(md) {
+  let s = String(md || '');
+
+  // Remove leading metadata line like: "原创 zixia 2026-01-15 00:29 西班牙" (allow extra spaces)
+  s = s.replace(/^\s*原创\s+[^\n]+\n+/m, '');
+
+  // Remove trailing prompts like: "阅读原文\n\n跳转微信打开" (and variations)
+  s = s.replace(/\n+\s*阅读原文\s*(?:\n+\s*跳转微信打开\s*)?\n*$/m, '\n');
+
+  // Collapse excessive blank lines
+  s = s.replace(/\n{3,}/g, '\n\n');
+
+  return s.trim() + '\n';
+}
+
 function htmlToMd(html) {
-  // Minimal, safe-ish conversion for now: strip tags but keep paragraphs.
-  // This is intentionally conservative to avoid mangling content.
-  const text = String(html)
-    .replace(/<\s*br\s*\/?\s*>/gi, '\n')
-    .replace(/<\s*\/p\s*>/gi, '\n\n')
-    .replace(/<[^>]+>/g, '')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
-  return text + '\n';
+  const turndown = new TurndownService({
+    codeBlockStyle: 'fenced',
+    emDelimiter: '*',
+    headingStyle: 'atx',
+    hr: '---',
+    bulletListMarker: '-',
+  });
+  turndown.use(gfm);
+
+  // Preserve inline styles (size/color) by keeping span tags as HTML.
+  turndown.keep(['span', 'sub', 'sup', 'u']);
+
+  // Preserve blockquotes reliably
+  // (Turndown already handles <blockquote>, but keep common wrappers)
+  turndown.keep(['blockquote']);
+
+  const md = turndown.turndown(String(html || ''));
+  return cleanWeChatBoilerplate(md);
 }
 
 async function fetchJson(url) {

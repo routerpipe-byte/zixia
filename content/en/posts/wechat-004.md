@@ -1,236 +1,238 @@
 ---
-title: 用科学回答那些哲学问题——关于时间、意义、意识、因果与道德的理性重构
+title: >-
+  Answering philosophical questions with science—rational reconstruction of
+  time, meaning, consciousness, causality, and morality.
 date: 2026-01-11T00:00:00.000Z
 draft: false
 translationKey: wechat-004
 slug: post-4
-translationStatus: placeholder
+translationStatus: translated
 sourceHash: e8d7d079221eb96023058b9d67dc755205896a45
 ---
-原创 zixia 2026-01-12 03:35 西班牙
+Original zixia 2026-01-12 03:35 Spain
 
-人类历史上，有一类问题被反复追问了几千年。
+In human history, there are certain questions that have been repeatedly asked for thousands of years.
 
-时间是什么？
+What is time?
 
-人生有没有意义？
+Does life have meaning?
 
-死亡是否必须恐惧？
+Is death something to be feared?
 
-人是否真的拥有自由意志？
+Do humans truly have free will?
 
-善与恶究竟从何而来？
+Where do good and evil ultimately come from?
 
-这些问题长期被归入“哲学”或“形而上学”的范畴，被神话、宗教、隐喻与强烈情绪层层包裹。
+These questions have long been categorized under "philosophy" or "metaphysics," wrapped in layers of mythology, religion, metaphor, and intense emotion.
 
-但在今天，随着物理学、神经科学与信息论的发展，我们第一次有可能——
+But today, with the development of physics, neuroscience, and information theory, we have the possibility for the first time—
 
-不借助信仰，不诉诸情绪，只用科学与理性，重新回答这些问题。
+To answer these questions anew using science and reason, without relying on faith or appealing to emotion.
 
-在开始之前，有必要先确立一个共识：
+Before we begin, it's necessary to establish a consensus:
 
-什么是“科学的解答”？
+What is a "scientific answer"?
 
-一、科学的边界：定义的重申这里的“科学”，不是结论集合，也不是价值立场，而是一套持续运行的认知方法。
+1. The Boundaries of Science: A Reaffirmation of Definitions The "science" here is not a collection of conclusions, nor a value stance, but a set of continuously operating cognitive methods.
 
-它至少需要满足以下条件：
+It must at least meet the following conditions:
 
-可观测性：讨论的对象必须在物理世界中留下可观测的痕迹，而非纯粹想象。
+Observability: The subject of discussion must leave observable traces in the physical world, not purely imagined.
 
-可归纳性：规律来源于事实的累积，而不是先验的臆断。
+Inductiveness: Laws come from the accumulation of facts, not a priori assumptions.
 
-可验证性：结论必须能够接受实验或现实检验，而非仅仅逻辑自洽。
+Verifiability: Conclusions must be able to withstand experimental or real-world testing, not just be logically coherent.
 
-可重复性：规律不依赖于观察者的身份（如“觉悟者”或“天才”），在相同条件下应得到相同结果。
+Repeatability: Laws should not depend on the identity of the observer (such as "enlightened ones" or "geniuses") and should yield the same results under the same conditions.
 
-基于这一方法，我们尝试对以下几个古老问题，给出当代的理性解答。
+Based on this method, we attempt to provide contemporary rational answers to the following ancient questions.
 
-二、时间是什么？传统直觉：
+2. What is time? Traditional intuition:
 
-时间是一条均匀流淌、绝对且被所有人共享的长河。
+Time is a uniformly flowing, absolute river shared by everyone.
 
-科学解答：
+Scientific answer:
 
-时间不是独立存在的实体，而是时空的几何属性。
+Time does not exist as an independent entity but is a geometric property of spacetime.
 
-在爱因斯坦的广义相对论中，并不存在绝对时间，也不存在绝对空间。
+In Einstein's general relativity, there is no absolute time, nor absolute space.
 
-我们所处的是一个统一的四维时空结构。
+We exist in a unified four-dimensional spacetime structure.
 
-光速 c 并非普通意义上的速度常量，而是时空结构中用于统一空间与时间度量的基本尺度。
+The speed of light c is not an ordinary constant of speed but a fundamental scale used to unify the measurement of space and time in the spacetime structure.
 
-在“块状宇宙”模型中，时间并不以“流动”的方式存在，
+In the "block universe" model, time does not exist in a "flowing" manner,
 
-而是作为时空结构中的一个维度整体呈现，正如空间本身。
+but is presented as a dimension within the spacetime structure, just like space itself.
 
-人类之所以感知到时间的流逝，并非因为时间本身具有特殊性，
+The reason humans perceive the passage of time is not because time itself is special,
 
-而是因为我们的生物结构限制了我们只能在时间维度上单向移动。
+but because our biological structure limits us to move unidirectionally in the time dimension.
 
-所谓的“现在”，并不是宇宙中的特殊时刻，而是感知机制带来的视角效应。
+The so-called "now" is not a special moment in the universe but a perspective effect brought about by our perception mechanism.
 
-三、人生的意义是什么？常见回答：
+3. What is the meaning of life? Common answers:
 
-幸福、成功、传承，或某种感性的“使命感”。
+Happiness, success, legacy, or some emotional "sense of mission."
 
-理性解答：
+Rational answer:
 
-意义不是情绪慰藉，而是文明层面的目标函数。
+Meaning is not emotional comfort but a goal function at the level of civilization.
 
-脱离个体体验，人类作为一个复杂系统，其存在逻辑可以概括为：
+Apart from individual experience, the existence logic of humans as a complex system can be summarized as:
 
-在局部范围内延缓熵增，并持续理解、压缩和建模宇宙规律。这并非心灵鸡汤，而是一种文明演化事实：
+Delaying entropy increase locally and continuously understanding, compressing, and modeling the laws of the universe. This is not motivational speaking but a fact of civilizational evolution:
 
-发现自然规律，建立物理模型；
+Discovering natural laws and establishing physical models;
 
-将宇宙的信息结构转化为人类可理解、可传承的形式；
+Transforming the universe's information structure into forms understandable and inheritable by humans;
 
-个体会湮灭，但文明构建的认知结构可以在信息层面持续延续。
+Individuals may perish, but the cognitive structures built by civilization can continue to persist at the information level.
 
-四、如何面对死亡？直觉反应：
+4. How to face death? Intuitive reaction:
 
-恐惧、逃避，或寄希望于某种形式的永生。
+Fear, avoidance, or hope for some form of immortality.
 
-理性解答：
+Rational answer:
 
-死亡是概率为 100% 的确定性事件。
+Death is a certainty with a probability of 100%.
 
-从生物学角度看，死亡是进化机制的一部分，它为基因的更新与系统的重组提供了必要空间。
+From a biological perspective, death is part of the evolutionary mechanism, providing necessary space for gene renewal and system reorganization.
 
-对于确定性事件，恐惧既无法改变其发生概率，也无法产生任何正向收益。
+For a certain event, fear can neither change its probability of occurrence nor produce any positive benefit.
 
-既然死亡对众生一视同仁，它便失去了针对个体的威胁性。
+Since death treats all beings equally, it loses its threat to the individual.
 
-平静地接受必然，是理性系统面对自然律时的最优策略。
+Calmly accepting the inevitable is the optimal strategy for a rational system facing natural laws.
 
-五、意识来自哪里？自由意志是否存在？科学视角：
+5. Where does consciousness come from? Does free will exist? Scientific perspective:
 
-意识是复杂系统中的一种涌现（Emergence）现象。
+Consciousness is an emergent phenomenon in complex systems.
 
-人类大脑由数百亿神经元构成，神经元之间通过电信号与化学信号相互连接。
+The human brain consists of tens of billions of neurons, interconnected through electrical and chemical signals.
 
-这一结构与现代人工智能大模型在逻辑层面高度相似：
+This structure is highly similar to modern artificial intelligence models at the logical level:
 
-硬件层：神经元与突触权重；
+Hardware layer: Neurons and synaptic weights;
 
-训练过程：经历、学习与感官输入；
+Training process: Experience, learning, and sensory input;
 
-涌现结果：当系统复杂度超过临界点，智能与意识随之出现。
+Emergent result: When the system's complexity exceeds a critical point, intelligence and consciousness emerge.
 
-意识并非某种超自然实体，而是自组织系统在高复杂度下的自然产物。
+Consciousness is not some supernatural entity but a natural product of self-organizing systems at high complexity.
 
-至于自由意志，它未必意味着“超越物理因果”，
+As for free will, it may not mean "transcending physical causality,"
 
-而更可能源于复杂系统的不可计算性与不可预测性。
+but more likely arises from the incomputability and unpredictability of complex systems.
 
-这种源于复杂度的宏观不确定性，在主观体验层面被感知为“自由选择”。
+This macro uncertainty due to complexity is perceived at the subjective experience level as "free choice."
 
-六、如果没有绝对时间，还有因果关系吗？科学解答：
+6. If there is no absolute time, is there still causality? Scientific answer:
 
-有。但因果不等于“先后顺序”，而等于结构约束。
+Yes. But causality is not equal to "sequence," but to structural constraints.
 
-在现代物理与逻辑框架中，因果应被理解为：
+In modern physical and logical frameworks, causality should be understood as:
 
-在给定的时空与信息结构下，状态转移的可达性。
+The reachability of state transitions under given spacetime and information structures.
 
-因果不是谁“推动”了谁；
+Causality is not about who "pushes" whom;
 
-因果是结构本身限制了可能性——
+Causality is the structure itself limiting possibilities—
 
-某些状态被允许，某些状态在结构上不可能发生。
+Some states are allowed, while others are structurally impossible.
 
-即使在不依赖线性时间的视角中，
+Even from a perspective that does not rely on linear time,
 
-结构依然严密地规定着世界的演化逻辑。
+the structure still strictly dictates the evolutionary logic of the world.
 
-因果不是时间的附属物，而是结构本身的约束条件。
+Causality is not an accessory to time but a constraint of the structure itself.
 
-七、选择是真实存在的吗？科学解答：
+7. Does choice truly exist? Scientific answer:
 
-答案取决于你所处的观察维度。
+The answer depends on the dimension of observation you are in.
 
-在高维结构中：
+In a high-dimensional structure:
 
-所有可能路径作为整体几何结构同时存在，并不存在“选择”。
+All possible paths exist simultaneously as a whole geometric structure, and there is no "choice."
 
-在低维投影中：
+In a low-dimensional projection:
 
-观察者只能看到高维结构的一个切面，于是“选择”变得真实且不可回避。
+The observer can only see a slice of the high-dimensional structure, making "choice" real and unavoidable.
 
-这类似于一个立体物体在平面上的投影：
+This is similar to the projection of a three-dimensional object onto a plane:
 
-影子不是虚假，而是高维真实在低维世界中的必然呈现。
+The shadow is not false but an inevitable manifestation of high-dimensional reality in the low-dimensional world.
 
-因此：
+Therefore:
 
-选择在高维视角中是几何位置，在低维世界中则是现实决策。
+Choice is a geometric position in the high-dimensional perspective and a real decision in the low-dimensional world.
 
-八、道德是什么？善恶从何而来？传统理解：
+8. What is morality? Where do good and evil come from? Traditional understanding:
 
-善恶来自神的命令、先天良知，或某种超越自然的价值体系。
+Good and evil come from divine commands, innate conscience, or some value system beyond nature.
 
-理性解答：
+Rational answer:
 
-善恶并非宇宙的道德判断，而是结构稳定性的自然结果。
+Good and evil are not moral judgments of the universe but natural results of structural stability.
 
-宇宙并不会“评判”行为本身，但不同结构的存续能力并不相同。
+The universe does not "judge" behavior itself, but different structures have varying abilities to persist.
 
-从信息论与复杂系统的角度看，宇宙更倾向于保留那些：
+From the perspective of information theory and complex systems, the universe tends to preserve those:
 
-能被建模的结构；
+Structures that can be modeled;
 
-能被预测与解释的结构；
+Structures that can be predicted and explained;
 
-能在扰动中保持稳定、并持续演化的复杂结构。
+Complex structures that can remain stable amidst disturbances and continue to evolve.
 
-当这种结构偏好投射到人类社会层面，便形成了我们所说的“道德”。
+When this structural preference is projected onto the human societal level, it forms what we call "morality."
 
-有利于复杂系统长期稳定、协作与延续的行为，被称为“善”；
+Behaviors conducive to the long-term stability, cooperation, and continuation of complex systems are called "good";
 
-破坏系统稳定性、降低整体复杂度的行为，被称为“恶”。
+Behaviors that disrupt system stability and reduce overall complexity are called "evil."
 
-善恶并不是宇宙赋予的标签，
+Good and evil are not labels bestowed by the universe,
 
-而是人类在长期演化过程中，对哪些行为有助于系统可持续存在所做出的经验归纳。
+but experiential inductions made by humans over long-term evolution about which behaviors help systems sustainably exist.
 
-从这个角度看：
+From this perspective:
 
-道德不是情绪宣言；
+Morality is not an emotional declaration;
 
-不是超自然命令；
+Not a supernatural command;
 
-而是一种演化出的结构约束。
+But an evolved structural constraint.
 
-它服务的对象不是个体情绪，而是复杂系统的可持续性本身。
+It serves not individual emotions but the sustainability of complex systems themselves.
 
-九、结语：当理性介入，问题会自动“失效”当我们尝试用科学重新审视这些古老问题时，会出现一种耐人寻味的现象：
+9. Conclusion: When reason intervenes, problems automatically "invalidate" When we attempt to re-examine these ancient questions with science, an intriguing phenomenon occurs:
 
-一些问题被解决了；
+Some questions are solved;
 
-一些问题被重新定义了；
+Some questions are redefined;
 
-而还有一些问题，则自动失效了。
+And some questions automatically become invalid.
 
-时间不再需要神话，
+Time no longer needs mythology,
 
-意义不再依赖情绪，
+Meaning no longer relies on emotion,
 
-善恶不再诉诸超验，
+Good and evil no longer appeal to the transcendental,
 
-死亡不再制造恐惧。
+Death no longer incites fear.
 
-这并不是世界变得冷漠了，
+This does not mean the world has become indifferent,
 
-而是我们终于开始用结构、规律与可验证的语言理解它。
+But that we are finally beginning to understand it with structure, laws, and verifiable language.
 
-当注意力从“索取意义”转向“理解结构”，
+When attention shifts from "seeking meaning" to "understanding structure,"
 
-从“道德宣言”转向“系统稳定性”，
+From "moral declarations" to "system stability,"
 
-世界反而变得前所未有的清晰、透明且平静。
+The world instead becomes unprecedentedly clear, transparent, and calm.
 
-当问题失效之时，或许正是理解真正开始的地方。
+When problems become invalid, perhaps it is precisely where understanding truly begins.
 
-阅读原文
+Read the original text
 
-跳转微信打开
+Open in WeChat

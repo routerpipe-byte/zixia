@@ -6,8 +6,6 @@ translationKey: wechat-023
 slug: >-
   wei-shen-me-shuo-zhong-wen-cai-shi-zui-ke-xue-de-yu-yan-zheng-zai-xue-xi-yu-de-wo-zhong-yu-ming-bai-le
 ---
-原创 zixia 2025-05-16 18:16 西班牙
-
 没有动词变位、没有阴阳性、表达高效精准
 中文的逻辑之美，不仅值得惊叹，更值得我们自信。
 
@@ -162,7 +160,3 @@ He runs. / They run.
 我们没有理由磕头，反而有太多理由：
 
 抬头讲好我们的语言故事，讲好中国人的智慧与自信。
-
-阅读原文
-
-跳转微信打开

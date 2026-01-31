@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
-    "pinyin-pro": "^3.20.4"
+    "pinyin-pro": "^3.20.4",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
   }
 }

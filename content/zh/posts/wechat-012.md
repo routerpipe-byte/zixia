@@ -6,8 +6,6 @@ translationKey: wechat-012
 slug: >-
   gu-dai-zhong-guo-de-ke-ju-zhi-du-zhi-you-ba-gu-wen-me-zui-zao-de-ke-ju-shi-wen-li-shuang-xiu
 ---
-原创 zixia 2025-11-01 19:09 西班牙
-
 历史考古澄清：
 
 科举制度并非只考八股文，最早是“文理双修”。
@@ -93,7 +91,3 @@ slug: >-
 真正的信仰，不是仰望天，而是脚踏地。当我们重新拾起理性与科学的火种，或许，我们终能再一次成为人类文明的引路人。
 
 的工艺百科全书
-
-阅读原文
-
-跳转微信打开

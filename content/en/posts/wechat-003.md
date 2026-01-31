@@ -1,236 +1,254 @@
 ---
-title: 算法之巅与逻辑之源：当《九章算术》遇见《几何原本》
+title: >-
+  The Pinnacle of Algorithms and the Source of Logic: When "The Nine Chapters on
+  the Mathematical Art" Meets "Euclid's Elements"
 date: 2026-01-12T00:00:00.000Z
 draft: false
 translationKey: wechat-003
 slug: post-3
-translationStatus: placeholder
+translationStatus: translated
 sourceHash: d4bf153f95a06f73891b322bb3e0c7058cf5334f
 ---
-原创 zixia 2026-01-13 05:48 西班牙
+Original zixia 2026-01-13 05:48 Spain
 
-在人类文明的黎明时分，有两部数学著作几乎在同一时代出现，却像两条流向不同的河流，悄然塑造了东西方完全不同的思维传统。
+At the dawn of human civilization, two mathematical works emerged almost simultaneously, yet like two rivers flowing in different directions, they quietly shaped completely different intellectual traditions in the East and the West.
 
-一部来自中国，
-一部来自古希腊。
+One originated in China,  
+the other in ancient Greece.
 
-它们分别是：
+They are:
 
-中国的 《九章算术》
+China's *"Nine Chapters on Mathematical Procedures"*  
+Ancient Greece's *"Elements"* (a translated title of part of Euclid's *"Mathematical Principles"*).
 
-古希腊的 《几何原本》（欧几里得《数学原本》的一部分译名）
+Even today, our understanding of science, technology, and even artificial intelligence still carries the genetic legacy of these two books.
 
-直到今天，我们对科学、技术，乃至人工智能的理解方式，依然在流淌着这两本书的基因。
+---
 
-一、时代背景：哲学家的真理 vs 管理者的手册在西方科学史上，出现最早、对后世影响最大的数学著作，是欧几里得的《数学原本》（后世常称“欧氏几何”的源头）；
-而在中国古代科学史上，出现最早、流传最广、影响最大的数学典籍，则是汉代成书的《九章算术》。
+### I. Historical Context: Philosophers' Truth vs. Administrators' Handbook
 
-对这两部“各自文明最重要的数学经典”进行比较，并不是为了争输赢，而是为了理解一个更现实的问题：
+In the history of Western science, the earliest and most influential mathematical work is Euclid's *"Elements"* (later often referred to as the origin of "Euclidean geometry").  
+In the history of ancient Chinese science, the earliest, most widely circulated, and most influential mathematical classic is the *"Nine Chapters on Mathematical Procedures"*, completed during the Han Dynasty.
 
-为什么同样高水平的古代数学，
-最终对现代自然科学的贡献，会走出两条截然不同的路径？
+Comparing these two "most important mathematical classics of their respective civilizations" is not about determining which is superior, but about understanding a more practical question:
 
-1️⃣《几何原本》：为“真理本身”而存在的数学成书时间：约公元前 300 年
+Why did ancient mathematics of equally high caliber  
+ultimately contribute to modern natural science through two completely different paths?
 
-作者：欧几里得
+---
 
-角色定位：通往宇宙规律的「逻辑阶梯」
+#### 1️⃣ *"Elements"*: Mathematics existing for "truth itself"
 
-《几何原本》并不关心收成、税赋或工程成本，
-它关心的是一个更根本的问题：
+**Completion Time**: Around 300 BCE  
+**Author**: Euclid  
+**Role**: A "logical ladder" to universal laws
 
-数学本身，应该如何被定义？
+*"Elements"* does not concern itself with harvests, taxation, or engineering costs.  
+It focuses on a more fundamental question:
 
-它是在建立一个“可推导的世界”：
-从最少的前提出发，推演出尽可能多的必然结论。
-这也是为什么后来西方许多学科，把它当作“理论写作与科学论证的范本”。
+How should mathematics itself be defined?
 
-甚至有人指出：牛顿的《自然哲学的数学原理》的结构，也明显借鉴了欧氏体系那种“定义—公理—命题—证明”的风格。
+It establishes a "deducible world":  
+Starting from the fewest premises, it derives as many necessary conclusions as possible.  
+This is why many Western disciplines later regarded it as a "model for theoretical writing and scientific argumentation."
 
-2️⃣《九章算术》：为现实世界服务的数学成书时间：约公元前 2 世纪—公元 1 世纪（西汉至东汉）
+Some even point out that the structure of Newton's *"Mathematical Principles of Natural Philosophy"* clearly borrowed from Euclid's system of "definitions—axioms—propositions—proofs."
 
-作者：历代数学家整理增补
+---
 
-角色定位：大一统帝国的「管理手册」
+#### 2️⃣ *"Nine Chapters on Mathematical Procedures"*: Mathematics serving the real world
 
-它解决的都是最现实的问题：
+**Completion Time**: Around 2nd century BCE–1st century CE (Western Han to Eastern Han)  
+**Author**: Compiled and supplemented by generations of mathematicians  
+**Role**: A "management manual" for a unified empire
 
-田亩丈量
+It addresses the most practical problems:
 
-赋税计算
+- Land measurement  
+- Tax calculation  
+- Engineering construction (building dams, warehouses, digging canals)
 
-工程施工（筑堤、建仓、挖渠）
+This is a book written for officials and engineers.  
+It does not pursue "the pure truth of the universe"; it pursues:
 
-这是一本写给官员与工程师的书。
-它不追求“宇宙的纯粹真理”，它追求的是：
+Solving problems accurately, quickly, and effectively.
 
-把问题算对、算快、算得能用。
+Precisely because of this strong practicality, the research and application of *"Nine Chapters"* persisted in China for a long time, even extending into the Ming and Qing dynasties—it almost became the "standard algorithm library" for ancient social governance and engineering systems.
 
-也正因为这种极强的实用性，《九章算术》的研究与应用，在中国长期持续，甚至一直延伸到明清时期——它几乎成了古代社会治理与工程体系里的“标准算法库”。
+---
 
-二、出发点之别：从“定义”开始 vs 从“问题”开始📐《几何原本》：从虚无中构建宇宙欧几里得的开篇，不计算面积、不解方程，
-而是先定义世界本身。
+### II. Divergent Starting Points: Beginning with "Definitions" vs. Beginning with "Problems"
 
-原文：
+---
 
-定义 1：点是没有部分的。
-A point is that which has no part.
+#### 📐 *"Elements"*: Constructing the universe from nothing
 
-定义 2：线只有长度而无宽度。
+Euclid's opening does not calculate areas or solve equations;  
+it first defines the world itself.
 
-公设 1：由任意一点到另外任意一点，可以画一条直线。
+Original text:
 
-在这里，欧几里得做的不是计算，而是抽象建模。
-整本书建立在一条极其严密的演绎链上：
+**Definition 1**: A point is that which has no part.  
+**Definition 2**: A line has length only, without width.  
+**Postulate 1**: A straight line can be drawn from any point to any other point.
 
-定义 → 公理/公设 → 命题 → 证明
+Here, Euclid is not calculating but abstractly modeling.  
+The entire book is built on an extremely rigorous deductive chain:
 
-这是一种从**“为什么一定成立”**出发的数学。
+Definition → Axiom/Postulate → Proposition → Proof
 
-🌾《九章算术》：从土地中生长出来的智慧《九章算术》的开篇，极其“接地气”。
-每一章，几乎都以一句话开始：
+This is mathematics starting from **"why it must hold true."**
 
-“今有……”
-（现在有这么一个现实问题）
+---
 
-原文：
+#### 🌾 *"Nine Chapters on Mathematical Procedures"*: Wisdom growing from the land
 
-今有田广十五步，从十六步。问为田几何？
-术曰：广从步数相乘，得积步。
+The opening of *"Nine Chapters"* is extremely "down-to-earth."  
+Each chapter almost always begins with a sentence:
 
-它的结构非常稳定：
+*"Now there is..."*  
+(Now there is such a real-world problem.)
 
-问题 → 结果 → 术（算法）
+Original text:
 
-它并不解释：为什么“长 × 宽 = 面积”。
-它直接给你一套名为「术」的可复用算法——
-在今天看来，几乎就是一段伪代码。
+*"Now there is a field 15 steps wide and 16 steps long. What is the area of the field?"*  
+**Procedure**: Multiply the width and length to obtain the area.
 
-三、同一道数学，不同的思维路径1️⃣ 勾股定理：证明必然性 vs 应用有效性《几何原本》
-欧几里得在命题 I.47 中，通过复杂的几何构图，严格证明直角三角形三边关系的逻辑必然性。
+Its structure is very stable:
 
-《九章算术》
-直接给出公式：
+Problem → Result → Procedure (Algorithm)
 
-勾股各自乘，并而开方除之，即弦。
-随后立刻投入应用：测水深、量树高、定工程尺度。
+It does not explain why "length × width = area."  
+It directly provides you with a reusable algorithm called "procedure"—  
+From today's perspective, it is almost like a piece of pseudocode.
 
-一个在证明**“为什么一定对”，
-一个在验证“是否足够好用”**。
+---
 
-2️⃣ 工程问题：堤坝体积的“算官对决”在古代算学考试（如唐代明算科）中，有一道极具代表性的工程题：
+### III. The Same Mathematics, Different Thought Paths
 
-原型题（《商功章》）：
+---
 
-今有筑堤，下广二丈，上广八尺，高四尺，袤一十二丈七尺。
-问：积几何？
+#### 1️⃣ Pythagorean Theorem: Proving necessity vs. Applying effectiveness
 
-术曰（算法）：
+**"Elements"**  
+In Proposition I.47, Euclid rigorously proves the logical necessity of the relationship between the three sides of a right triangle through complex geometric constructions.
 
-并上下广而半之，以高乘之，又以袤乘之。
+**"Nine Chapters on Mathematical Procedures"**  
+Directly provides the formula:  
 
-这是标准的梯形体积算法。
+*"Square the two shorter sides, add them together, and take the square root to find the hypotenuse."*  
+It then immediately applies this: measuring water depth, calculating tree height, determining engineering scales.
 
-如果让欧几里得来解：
-他会要求你证明梯形面积公式成立，并把梯形拆解为多个三角形再推导。
-而中国考生只需：拨动算筹，执行算法。
+One focuses on proving **"why it must be correct,"**  
+the other focuses on verifying **"whether it is sufficiently useful."**
 
-这种高度算法化的教育体系，让古代中国拥有了极其强大的工程执行能力——
-它能把“治理”变成“可计算”，把“工程”变成“可操作”。
+---
 
-3️⃣ 正负数：红与黑的艺术这是中国数学对人类最重要的贡献之一。
+#### 2️⃣ Engineering Problems: The "Calculation Duel" of Dam Volume
 
-《九章算术》·方程章
-为处理系数抵消，引入正负数：
+In ancient mathematical exams (e.g., the Tang Dynasty's "Advanced Mathematics Exam"), there was a highly representative engineering problem:
 
-赤筹瑞正，黑筹瑞负。
-并系统给出「正负术」的加减规则。
+**Prototype Problem (from the "Chapter on Construction"):**
 
-对比之下
-古希腊数学长期认为“长度不能为负”，因此将负数视为荒谬。
+*"Now there is a dam, with a bottom width of 2 zhang, a top width of 8 chi, a height of 4 chi, and a length of 12 zhang 7 chi.  
+What is the volume?"*
 
-中国数学家的态度更像工程师：
+**Procedure (Algorithm):**
 
-只要算法逻辑自洽，不必非要直观可见。
+*"Add the top and bottom widths, halve the sum, multiply by the height, then multiply by the length."*
 
-四、如果只看一眼全文，这张表就够了维度
+This is the standard trapezoidal volume algorithm.
 
-《九章算术》（东方）
+If Euclid were to solve this:  
+He would require you to prove the trapezoidal area formula's validity and decompose the trapezoid into multiple triangles for derivation.  
+Chinese candidates only needed to: move counting rods and execute the algorithm.
 
-《几何原本》（西方）
+This highly algorithmic educational system gave ancient China exceptionally strong engineering execution capabilities—  
+It could turn "governance" into "computable," and "engineering" into "operable."
 
-思维偏好
+---
 
-算法思维：怎么算
+#### 3️⃣ Positive and Negative Numbers: The Art of Red and Black
 
-逻辑思维：为什么
+This is one of China's most important contributions to human mathematics.
 
-数学形态
+*"Nine Chapters on Mathematical Procedures"* · Chapter on Equations  
+Introduced positive and negative numbers to handle coefficient cancellation:
 
-离散、代数、数值计算
+*"Red rods represent positive, black rods represent negative."*  
+It systematically provided addition and subtraction rules for positive and negative numbers.
 
-连续、几何、空间建模
+In contrast:  
+Ancient Greek mathematics long held that "length cannot be negative," thus deeming negative numbers absurd.
 
-方法论
+Chinese mathematicians' attitude was more like engineers:  
+As long as the algorithm's logic is consistent, it does not need to be intuitively visible.
 
-归纳法：从案例总结通用法则
+---
 
-演绎法：从公理推导具体结论
+### IV. If You Only Glance at the Full Text, This Table Suffices
 
-关注重点
+| Dimension | *"Nine Chapters"* (Eastern) | *"Elements"* (Western) |  
+|-----------|-----------------------------|------------------------|  
+| Thinking Preference | Algorithmic Thinking: How to calculate | Logical Thinking: Why it works |  
+| Mathematical Form | Discrete, algebraic, numerical computation | Continuous, geometric, spatial modeling |  
+| Methodology | Inductive: Summarizing general rules from cases | Deductive: Deriving specific conclusions from axioms |  
+| Focus | Executability and efficiency | Consistency and universality |  
+| Weakness | Lacks rigorous logical proof, overly reliant on empirical summaries | Detached from practicality, once considered "impractical" |  
+| Scientific Contribution | Ensured the long-term continuation of engineering and governance technologies | Provided the logical foundation for the grand edifice of modern natural science |
 
-可执行性与效率
+---
 
-自洽性与普适性
+### V. Key Divergence: Why Did *"Nine Chapters"* "Last Long" but Not "Lay Foundations" Like *"Elements"*?
 
-缺陷缺乏严密的逻辑证明，依赖经验总结过度脱离实用，曾被认为“不务正业”科学贡献确保了工程与治理技术的长期延续现代自然科学宏伟大厦的逻辑基础五、关键分野：为什么《九章》“长寿”，却不如《几何》“奠基”？《九章算术》的实用性，确实确保它在中国的研究和应用持续到明清：
-后世许多数学家，往往从《九章》提出的问题出发做深化与推广。
+The practicality of *"Nine Chapters"* indeed ensured its research and application in China persisted into the Ming and Qing dynasties:  
+Many later mathematicians often deepened and expanded upon the problems posed in *"Nine Chapters."*
 
-但它也有一个不能回避的结构性短板：
+But it also has an unavoidable structural shortcoming:  
+It almost never provides clear mathematical concepts, theorem systems, or systematic proofs.
 
-它几乎没有给出明确的数学概念、定理体系与系统证明。
+*"Elements"*, on the other hand, is the opposite:  
+It may not directly build dams, but it offers the "scaffolding for the scientific edifice":
 
-而《几何原本》恰恰反过来：
-它可能不直接修堤，但它提供了“科学大厦的脚手架”：
+- How to define concepts  
+- How to set axioms and postulates  
+- How to prove propositions  
+- How to construct a consistent system  
 
-如何定义概念
+This structure profoundly influenced later natural sciences—  
+Modern natural science requires not only "being able to calculate" but also "being able to establish theories."
 
-如何设定公理与公设
+Thus, the final result is:  
+*"Nine Chapters"* is more like a "governance and engineering algorithm library,"  
+*"Elements"* is more like a "scientific theory construction manual."
 
-如何证明命题
+---
 
-如何构建自洽体系
+### VI. How Does This Divergence Continue Today?
 
-这套结构，对后世自然科学的影响极深——
-现代自然科学不仅需要“会算”，更需要“能建立理论”。
+This difference in "algorithm genes" and "logical genes" reappears in the 21st century.
 
-所以最终结果是：
-《九章》更像一部“治理与工程的算法库”，
-《几何》更像一套“科学理论的建筑法”。
+**Western (Elements Gene)** excels at going from 0 to 1:  
+Neural network theory, large model frameworks, computational paradigm innovation  
+Solving: Why the model is feasible
 
-六、这场分野，如何延续到今天？这种「算法基因」与「逻辑基因」的差异，在 21 世纪再次显现。
+**Eastern (Nine Chapters Gene)** excels at going from 1 to 100:  
+Algorithm compression, inference acceleration, engineering implementation, cost optimization  
+Solving: How to make the model perfect
 
-**西方（几何原本基因）**擅长从 0 到 1：
-神经网络理论、大模型框架、计算范式创新
-解决的是：模型为什么可行
+This is not about which is more advanced,  
+but about different paths of choice.
 
-**东方（九章算术基因）**擅长从 1 到 100：
-算法压缩、推理加速、工程落地、成本优化
-解决的是：如何把模型做到极致
+---
 
-这不是谁更高级，
-而是路径的不同选择。
+### Conclusion
 
-结语《九章算术》，是大地的智慧，教我们如何务实地解决问题；
-《几何原本》，是星空下的沉思，教我们如何构建理性的世界。
+*"Nine Chapters on Mathematical Procedures"* is the wisdom of the earth, teaching us how to pragmatically solve problems;  
+*"Elements"* is the contemplation under the stars, teaching us how to construct a rational world.
 
-直到今天，我们依然站在这两种传统的交汇点上。
+Even today, we still stand at the intersection of these two traditions.
 
-真正的突破，往往来自于：
+True breakthroughs often come from:
 
-用逻辑去检验算法，
-用算法去实现逻辑。
-
-阅读原文
-
-跳转微信打开
+Using logic to test algorithms,  
+Using algorithms to realize logic.

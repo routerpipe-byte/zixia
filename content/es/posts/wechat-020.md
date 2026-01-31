@@ -3,12 +3,10 @@ title: 如何在线申请西班牙钓鱼许可证
 date: 2025-06-25T00:00:00.000Z
 draft: false
 translationKey: wechat-020
-slug: post-16
+slug: post-35
 translationStatus: placeholder
 sourceHash: 92c21df01a9ae349e46e315bc5c9acb38d6cc8cc
 ---
-原创 zixia 2025-06-26 05:07 西班牙
-
 在西班牙，钓鱼许可主要分为两大类：海钓许可和河道（淡水）钓鱼许可。本文将为你详细介绍这两类许可证的在线申请方法。
 
 一、海上钓鱼许可证申请流程西班牙各地区的海钓许可办理流程比较统一，你可以在官网直接在线申请。
@@ -72,7 +70,3 @@ sourceHash: 92c21df01a9ae349e46e315bc5c9acb38d6cc8cc
 切勿使用自动翻译插件以免表单提交出错。
 
 办理完成后打印或妥善保存电子版许可。
-
-阅读原文
-
-跳转微信打开

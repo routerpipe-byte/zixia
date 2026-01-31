@@ -6,8 +6,6 @@ translationKey: wechat-010
 slug: >-
   ou-zhou-wang-shi-de-zhen-xiang-tong-zhi-ge-guo-de-qi-shi-shi-yi-qun-de-yi-zhi-ren
 ---
-原创 zixia 2025-12-28 04:47 西班牙
-
 很多人以为，
 
 英国王室是英国人的，
@@ -139,7 +137,3 @@ slug: >-
 国家对他们来说，只是“工作地点”。
 
 欧洲的王室不是民族的象征，而是中世纪最早完成“国际化”的一小撮人。
-
-阅读原文
-
-跳转微信打开

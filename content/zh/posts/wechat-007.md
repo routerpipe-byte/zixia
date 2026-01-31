@@ -6,8 +6,6 @@ translationKey: wechat-007
 slug: >-
   ou-zhou-min-zu-yan-hua-gai-shu-qian-xi-yu-yan-ti-huan-yu-zhi-du-zheng-he-de-chang-qi-guo-cheng
 ---
-原创 zixia 2026-01-08 06:51 西班牙
-
 欧洲的民族结构并非自古固定，而是在史前人口迁徙、语言更替、政治征服与宗教整合的长期历史过程中逐步形成的。
 
 以下按时间顺序，梳理欧洲民族演化的主要阶段与结构特征。
@@ -357,7 +355,3 @@ R1a 为主
 斯拉夫语支
 
 东欧主体
-
-阅读原文
-
-跳转微信打开

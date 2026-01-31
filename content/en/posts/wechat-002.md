@@ -1,235 +1,284 @@
 ---
-title: From the family affairs of Abraham to the globally influential "One God"
+title: From Abraham's household to the "One God" that influences the world.
 date: 2026-01-14T00:00:00.000Z
 draft: false
 translationKey: wechat-002
 slug: cong-ya-bo-la-han-de-jia-shi-dao-ying-xiang-quan-qiu-de-wei-yi-shen
 translationStatus: translated
-sourceHash: manual
+sourceHash: clean-v2
 ---
-Original Author: zixia  
-Date: 2026-01-15 00:29  
-Location: Spain  
-
 In the early days of human civilization, religion was like a chaotic **"startup competition."**
 
-Initially, our ancestors, out of fear,  
-called thunder "father"  
-and rain "mother,"  
-thus creating the primitive worship of **"animism."**
+At first, our ancestors, out of fear, 
 
-Later—  
-The ancient Egyptians deified their pets (jackals, cats),  
-while the ancient Greeks raised a group of "superpowered giant babies" on Mount Olympus.  
-Zeus and his family,  
-instead of handling serious matters,  
-spent their days busy with infidelity and infighting.
+called the thunder "dad," 
 
-But eventually, a more efficient and monopolistic business model emerged:  
-Monotheism, a highly self-consistent logic—  
-There is only one "Big Boss" in the sky,  
-and only one "CEO" needed on earth.
+called the rain "mom," 
 
-The founder of this monopoly business?  
-None other than—Abraham (also known as Ibrahim).
+and created the primitive worship of "everything has a spirit."
 
----
+Later—
 
-### I. Family Feuds: An Ethical Drama That Changed Geopolitics  
+The ancient Egyptians deified pets (jackals, cats), 
 
-All major events that changed the world  
-may have initially stemmed from one simple issue—  
-the legitimate wife couldn't have children.  
+while the ancient Greeks raised a group of "super-powered infants" on Mount Olympus.
 
-Abraham was a successful entrepreneur,  
-but he had a personal problem:  
-His wife Sarah was infertile.  
+Zeus and his family,
 
-So—  
-He had a son, Ishmael, with his maidservant Hagar.  
-Later, Sarah miraculously conceived and gave birth to a second son, Isaac.  
+aside from their serious business, 
 
-To avoid inheritance disputes,  
-Hagar and her son were exiled to the desert.  
+were busy with affairs and conflicts every day.
 
-This "legitimate vs. illegitimate" conflict  
-became the most expensive family split in human history:  
+But eventually, a more efficient and monopolistic business model emerged:
 
-- Isaac (legitimate second son)  
-  → Became the ancestor of the Jewish people  
-  → His descendants included Moses and Jesus  
+Monotheism, with its extremely coherent logic—
 
-- Ishmael (illegitimate first son)  
-  → Became the ancestor of the Arab people  
-  → His descendants included the Prophet Muhammad  
+There is only one "Big Boss" in heaven, 
 
-A fascinating scientific coincidence:  
-Modern genetics (Y-chromosome haplogroups)  
-astonishingly confirms this legend—  
+and only one "CEO" is needed on earth.
 
-Jews predominantly carry J2,  
-Arabs predominantly carry J1.  
-These two genetic groups indeed share the same "father" from 4,000 years ago.  
+And the founder of this monopolistic business is—
 
-So, the current Middle Eastern conflicts are essentially two brothers fighting over their ancestral home.
+Abraham (also known as Ibrahim).
 
----
+1. Family Feuds: An Ethical Drama that Changed Geopolitics
 
-### II. Product Iterations: The "Rebranding History" from 1.0 to 3.0  
+All major events that changed the world 
 
-Although the family split,  
-the foundational "code" of the three brothers remains the same.  
+may have initially been caused by—
 
-The evolution of these three major religions is essentially  
-the continuous upgrade of the same software.  
+the main wife being unable to bear children. Abraham was a successful entrepreneur, 
 
-- **Judaism | Foundation Version 1.0**  
-  The core is the "Old Testament,"  
-  a VIP invitation-only product.  
-  Jews consider themselves God's "exclusive beta testers"—  
-  proud, exclusive, and rarely accepting new users.  
+but he had a difficult secret:
 
-- **Christianity | Global Expansion Version 2.0**  
-  Then came Jesus.  
-  As "God's spokesperson,"  
-  he transformed the product from "Jews-only"  
-  to "universal access."  
+His primary wife, Sarah, was barren.
 
-  ⚠️ Key point:  
-  Jesus himself never wrote a single word.  
-  What we see in the "New Testament"  
-  are memoirs written by his followers decades later.  
+So—
 
-  This means:  
-  Christianity, from its inception, has been a history of interpretation.  
+He had a firstborn son with his maid, Hagar: Ishmael.
 
-- **Islam | Final Patch Version 3.0**  
-  Muhammad believed:  
-  The first two versions had been "ruined by the product managers."  
-  So, he directly launched the final revised version—the "Quran."  
+Later, the primary wife miraculously became pregnant and gave birth to a second son: Isaac.
 
-  A large-scale "localization" effort:  
-  - Abraham → Ibrahim  
-  - Jesus → Isa  
-  - Mary → Maryam  
+To avoid a family inheritance dispute, 
 
-  The logic is simple:  
-  "My elder brothers misinterpreted the scriptures, so I’m here to set the record straight."
+Hagar and her son were exiled to the desert.
 
----
+This "legitimate vs. illegitimate" struggle 
 
-### III. The Art of Interpretation: How Did Polygamy "Disappear"?  
+became the most expensive family division in human history:
 
-If the script is similar,  
-why do their ways of life differ so drastically?  
+Isaac (the legitimate second son)
 
-The answer lies in one sentence:  
-The text is static; interpretation is dynamic.  
+→ became the ancestor of the Jews
 
-Take "polygamy" as an example.  
-Many people think it’s a "benefit" of a particular religion,  
-but its origin lies in Judaism.  
+→ and incidentally gave rise to Moses and Jesus in later generations.
 
-In "Exodus 21:10,"  
-God even thoughtfully provided a "concubine guide":  
-"If he takes another wife, he must not deprive the first one of her food, clothing, and marital rights."  
+Ishmael (the illegitimate firstborn)
 
-King Solomon had 700 wives,  
-and God didn’t expel him.  
+→ became the ancestor of the Arabs
 
-So why do Christians practice monogamy today?  
+→ and from his descendants emerged the prophet Muhammad.
 
-- **Christianity's "Survival Instinct"**  
-  To spread their faith in the monogamous Roman Empire,  
-  they forcibly changed the rules through interpretation.  
+The miraculous coincidence of science:
 
-- **Judaism's "Going with the Flow"**  
-  It wasn’t until around 1000 AD  
-  that polygamy was officially abolished.  
+Modern genetics (Y chromosome haplogroups) 
 
-The scriptures didn’t change;  
-the "CEO" violated the ancient contract to adapt to the market.
+astonishingly confirms this legend—
 
----
+Jews primarily belong to J2 
 
-### IV. A Historical Role Reversal: Who Is the True Fundamentalist?  
+and Arabs primarily belong to J1.
 
-Today's social media narrative is:  
-- West = Open  
-- Middle East = Conservative  
+These two genetic groups indeed had the same "dad" 4,000 years ago.
 
-But 1,000 years ago,  
-the roles were reversed.  
+It turns out that the current conflicts in the Middle East are essentially just two brothers fighting over inheritance rights.
 
-- **Veiled Christian Women**  
-  "1 Corinthians 11:6" is very clear:  
-  "If a woman does not cover her head, she should cut off her hair."  
+2. Product Iteration: The "Shell History" from 1.0 to 3.0
 
-  In medieval Europe—  
-  Women going out uncovered = impure.  
-  Christianity was closed-minded and ignorant,  
-  busy burning scientists at the stake.  
+Although they separated, 
 
-- **The "Silicon Valley" Baghdad**  
-  Meanwhile, the Muslim world was a beacon of civilization:  
-  Translating Greek philosophy,  
-  Inventing algebra,  
-  Extremely tolerant of other religions—  
-  As long as you paid a small tax (protection fee),  
-  everyone was treated as brothers.  
+the underlying code of the three brothers is actually the same.
 
-In short:  
-Back then, London was like today’s Afghanistan,  
-while Baghdad was like today’s New York.
+The evolution of these three major religions is essentially 
 
----
+the continuous upgrading of the same software.
 
-### V. Martin Luther: The "Decentralization Revolution" in Religion  
+Judaism | Foundation Version 1.0
 
-In the 16th century,  
-Christianity’s shift toward secularism  
-was driven by a true commercial revolution.  
+The core is the "Old Testament"
 
-At the time, the Pope was:  
-The world’s largest middleman.  
-To get to heaven, you had to buy indulgences.  
+A VIP invitation-only product
 
-Martin Luther couldn’t stand it:  
-"Every believer is a priest."  
-He directly cut out the middleman.  
+Jews consider themselves "exclusive beta testers" of God.
 
-It was equivalent to—  
-Eliminating the monopoly of physical stores,  
-allowing users to connect directly to the server (God).  
+Proud and exclusive, they basically do not accept new users.
 
-This decisive move had immediate effects:  
-- Thought became free.  
-- The Pope was no longer the highest authority.  
-- Science, rationality, and the Industrial Revolution began to take root.
+Christianity | Overseas Promotion Version 2.0
 
----
+Jesus appeared.
 
-### VI. Conclusion: Texts Are Remnants; Interpretation Is the Soul  
+As the "spokesperson for God," 
 
-Today, the proportion of Protestants in developed countries continues to decline.  
-Churches have become backdrops for weddings and social events.  
+he transformed the product from "exclusive to Jews" 
 
-It’s not that the scriptures have lost their power,  
-but rather—  
-interpretation has fulfilled its mission of secularization.  
+to "universal for all."
 
-Looking back at 4,000 years of family feuds, you’ll realize:  
+⚠️ Here comes the key point:
 
-- No religion is inherently extreme.  
-- No doctrine is inherently modern.  
+Jesus himself never wrote a single word. What we see in the "New Testament" 
 
-All conflicts are essentially a war over—  
-the power of interpretation.  
+is a "memoir" written by his followers decades later.
 
-Whoever can "mod" the text to keep up with the times  
-gets a ticket to modern civilization.  
-Whoever clings to the remnants of the past  
-turns themselves into a painful statue.  
+This means:
 
-History is never a cycle;  
-it’s an endless war over interpretation.
+From its inception, Christianity has been a history of interpretation.
+
+Islam | Ultimate Patch Version 3.0
+
+Muhammad believed:
+
+The first two versions were ruined by the "product managers." So he directly launched the final revised version— the "Quran."
+
+A large-scale "localization" scene:
+
+Abraham → Ibrahim
+
+Jesus → Isa
+
+Mary → Maryam
+
+The logic is simple:
+
+The older brothers misread the scriptures, so I come to clarify the original text.
+
+3. The Art of Interpretation: How Did Polygamy "Disappear"?
+
+Since the scripts are similar, 
+
+why do everyone's ways of life differ so greatly?
+
+The answer is just one sentence:
+
+Words are dead, but the right to interpret is alive.
+
+Taking "polygamy" as an example.
+
+Many people think this is a "benefit" of a certain religion, 
+
+but its ancestor is Judaism.
+
+In Exodus 21:10, 
+
+God even thoughtfully formulated a "concubine guide":
+
+"If he takes another wife, her food, clothing, and marital rights must not be diminished." King Solomon had 700 wives, 
+
+and God did not expel him.
+
+So why do Christians practice monogamy now?
+
+Christianity's "survival instinct"
+
+To preach in the monogamous Roman Empire, 
+
+they forcibly changed the rules using the right to interpret.
+
+Judaism's "following the trend"
+
+did not officially abolish polygamy until around 1000 AD.
+
+The scriptures remained unchanged, but the CEO adapted the interpretation of a contract from thousands of years ago to fit the market.
+
+4. The Historical Turning Point: Who Is the True Fundamentalist?
+
+Today's social media narrative is:
+
+The West = open, the Middle East = conservative, but 1,000 years ago, 
+
+this was a large-scale reversal scene.
+
+The masked Christians wrote clearly in 1 Corinthians 11:6:
+
+"If a woman does not cover her head, she should have her hair cut off." In medieval Europe— 
+
+women going out without proper head coverings = unclean.
+
+Christianity was closed and ignorant, 
+
+busy burning scientists.
+
+Meanwhile, the Muslim world was a beacon of civilization:
+
+Translating Greek philosophy, 
+
+inventing algebra, 
+
+and being extremely tolerant of pagans.
+
+As long as they paid a little tax (protection fee), 
+
+everyone was good brothers.
+
+In summary:
+
+London back then was like Afghanistan now, and Baghdad back then was like New York now.
+
+5. Martin Luther: The "Decentralization Revolution" in Religion
+
+In the 16th century, 
+
+Christianity was able to reverse its path towards secularism 
+
+because of a true commercial revolution.
+
+At that time, the Pope was:
+
+The world's largest middleman.
+
+To get to heaven, one had to buy indulgences.
+
+Martin Luther could not stand it:
+
+"Every believer is a priest." He directly decentralized.
+
+This is equivalent to—
+
+Canceling the monopoly of physical stores, 
+
+allowing users to connect directly to the server (God).
+
+With this cut, the effect was immediate:
+
+Thought began to be free, 
+
+the Pope was no longer the highest authority, 
+
+and the scientific, rational, and industrial revolutions began to take root.
+
+6. Conclusion: Words Are Remains, Interpretation Is the Soul
+
+Today, the proportion of Protestants in developed countries continues to decline, 
+
+and churches have become backdrops for weddings and social events.
+
+It is not that the scriptures have become ineffective, 
+
+but rather—
+
+the right to interpret has completed its mission of secularization.
+
+Looking back at the 4,000 years of family feuds, you will find:
+
+No religion is inherently extreme, 
+
+nor is any doctrine inherently modern.
+
+All the games are essentially a—
+
+war over the right to interpret.
+
+Whoever can "magically modify" the text to follow the times can obtain the ticket to modern civilization; whoever clings to the remains will turn themselves into a painful statue.
+
+History is never a cycle, 
+
+but an infinite war over the right to interpret.

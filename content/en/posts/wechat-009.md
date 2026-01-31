@@ -3,12 +3,10 @@ title: 西班牙非盈利续签线上递签（EX01）一家三口完整实操流
 date: 2026-01-02T00:00:00.000Z
 draft: false
 translationKey: wechat-009
-slug: ex-2
+slug: ex
 translationStatus: placeholder
 sourceHash: d1a46a41fa9bd7628b4de497d7eeee1ff4f6dc09
 ---
-原创 zixia 2026-01-02 22:45 西班牙
-
 一、递签时间要求项目
 
 说明
@@ -305,7 +303,3 @@ Firma del/de la autorizante:
 Firma del/de la representante:
 
 [NOMBRE DEL REPRESENTANTE]
-
-阅读原文
-
-跳转微信打开

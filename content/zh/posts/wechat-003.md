@@ -6,8 +6,6 @@ translationKey: wechat-003
 slug: >-
   suan-fa-zhi-dian-yu-luo-ji-zhi-yuan-dang-jiu-zhang-suan-shu-yu-jian-ji-he-yuan-ben
 ---
-原创 zixia 2026-01-13 05:48 西班牙
-
 在人类文明的黎明时分，有两部数学著作几乎在同一时代出现，却像两条流向不同的河流，悄然塑造了东西方完全不同的思维传统。
 
 一部来自中国，
@@ -229,7 +227,3 @@ A point is that which has no part.
 
 用逻辑去检验算法，
 用算法去实现逻辑。
-
-阅读原文
-
-跳转微信打开

@@ -3,12 +3,10 @@ title: 送孩子去欧美留学真的更利于心理健康吗？
 date: 2025-09-20T00:00:00.000Z
 draft: false
 translationKey: wechat-017
-slug: post-14
+slug: post-33
 translationStatus: placeholder
 sourceHash: 9507b95937a507dcb08bff1a51abbbd401497ab3
 ---
-原创 zixia 2025-09-21 03:32 西班牙
-
 很多家长把孩子送去欧美留学，一个常见理由是：
 
 “国外教育更轻松，孩子压力小，不容易抑郁，对心理健康更好。”
@@ -116,7 +114,3 @@ PHQ-9近两周阳性–
 而AI在这次讨论中也给了我们一个提醒：
 
 不要盲从“舆论和印象”，而要用客观数据去推理，得出更真实的结论。
-
-阅读原文
-
-跳转微信打开

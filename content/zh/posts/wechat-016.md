@@ -6,8 +6,6 @@ translationKey: wechat-016
 slug: >-
   han-zu-de-min-zu-xing-zhi-hua-xia-xue-mai-yu-zhong-hua-wen-hua-de-wu-qian-nian-chuan-cheng
 ---
-原创 zixia 2025-10-02 02:48 西班牙
-
 一、神话开端：炎黄蚩尤《史记》《国语》记载：
 
 黄帝在阪泉大战炎帝，使炎帝部落归附；
@@ -186,7 +184,3 @@ slug: >-
 
 汉族的文化与血脉传承，具有鲜明的民族性。历史文化、基因溯源都证明：汉族是中华民族的主体，中华民族是中国多民族的文明共同体。
 从基因和历史上考证，才能理解中华民族的由来。
-
-阅读原文
-
-跳转微信打开

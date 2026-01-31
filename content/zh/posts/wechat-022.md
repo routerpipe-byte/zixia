@@ -6,8 +6,6 @@ translationKey: wechat-022
 slug: >-
   xi-ban-ya-ji-chu-jiao-yu-quan-jing-dui-bi-zhong-guo-jia-zhang-gai-zhi-dao-de-zhen-xiang
 ---
-原创 zixia 2025-05-24 08:53 西班牙
-
 西班牙实行6至16岁的免费义务教育制度，涵盖6年小学和4年初中阶段。
 
 📚 上课时间与学费差异
@@ -149,7 +147,3 @@ King’s College Madrid（2023）： 约100名毕业生，仅收到4份G5录取
 这一切进步，归功于奋发图强的中国学生，和敬业奉献的中国老师。
 
 📣 落后就要挨打，中国人，永远不要忘记那句：为中华之崛起而读书！
-
-阅读原文
-
-跳转微信打开

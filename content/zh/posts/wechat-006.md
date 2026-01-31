@@ -6,8 +6,6 @@ translationKey: wechat-006
 slug: >-
   ou-zhou-ceng-jing-nong-diu-guo-zheng-ge-wen-ming-gu-xi-la-li-xing-zhi-shi-wei-he-zai-zhong-shi-ji-ou-zhou-xiao-shi
 ---
-原创 zixia 2026-01-09 04:20 西班牙
-
 中世纪基督教欧洲因语言断裂、教育制度崩溃与宗教垄断，导致希腊数学、哲学与科学系统性中断。相反，希腊知识在拜占庭与伊斯兰世界被完整保存、翻译并发展，最终经跨文明转运重返欧洲，点燃文艺复兴。
 
 很多人会下意识认为：
@@ -320,7 +318,3 @@ slug: >-
 
 历史不是情绪问题，
 而是证据问题。
-
-阅读原文
-
-跳转微信打开
