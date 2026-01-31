@@ -1,9 +1,11 @@
 ---
-title: "送孩子去欧美留学真的更利于心理健康吗？"
-date: 2025-09-20
+title: 送孩子去欧美留学真的更利于心理健康吗？
+date: 2025-09-20T00:00:00.000Z
 draft: false
-translationKey: "wechat-017"
-slug: "post"
+translationKey: wechat-017
+slug: post-14
+translationStatus: placeholder
+sourceHash: 9507b95937a507dcb08bff1a51abbbd401497ab3
 ---
 原创 zixia 2025-09-21 03:32 西班牙
 

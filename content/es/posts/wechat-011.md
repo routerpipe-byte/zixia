@@ -1,9 +1,11 @@
 ---
-title: "如何在线为未成年人申请「集体住址证明」"
-date: 2025-12-11
+title: 如何在线为未成年人申请「集体住址证明」
+date: 2025-12-11T00:00:00.000Z
 draft: false
-translationKey: "wechat-011"
-slug: "post"
+translationKey: wechat-011
+slug: post-10
+translationStatus: placeholder
+sourceHash: fc5f14a58039cc83e710f11e4e9efa05b8989eea
 ---
 原创 zixia 2025-12-12 04:59 西班牙
 

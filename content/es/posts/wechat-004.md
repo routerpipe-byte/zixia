@@ -1,9 +1,11 @@
 ---
-title: "用科学回答那些哲学问题——关于时间、意义、意识、因果与道德的理性重构"
-date: 2026-01-11
+title: 用科学回答那些哲学问题——关于时间、意义、意识、因果与道德的理性重构
+date: 2026-01-11T00:00:00.000Z
 draft: false
-translationKey: "wechat-004"
-slug: "post"
+translationKey: wechat-004
+slug: post-4
+translationStatus: placeholder
+sourceHash: e8d7d079221eb96023058b9d67dc755205896a45
 ---
 原创 zixia 2026-01-12 03:35 西班牙
 

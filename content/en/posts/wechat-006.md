@@ -1,9 +1,11 @@
 ---
-title: "欧洲曾经“弄丢”过整个文明——古希腊理性知识，为何在中世纪欧洲消失？"
-date: 2026-01-08
+title: 欧洲曾经“弄丢”过整个文明——古希腊理性知识，为何在中世纪欧洲消失？
+date: 2026-01-08T00:00:00.000Z
 draft: false
-translationKey: "wechat-006"
-slug: "post"
+translationKey: wechat-006
+slug: post-6
+translationStatus: placeholder
+sourceHash: ff61c2c2bd484bf351921ad45f2601193ce64e80
 ---
 原创 zixia 2026-01-09 04:20 西班牙
 

@@ -1,9 +1,11 @@
 ---
-title: "为什么说中文才是最“科学”的语言？正在学西语的我终于明白了"
-date: 2025-05-16
+title: 为什么说中文才是最“科学”的语言？正在学西语的我终于明白了
+date: 2025-05-16T00:00:00.000Z
 draft: false
-translationKey: "wechat-023"
-slug: "post"
+translationKey: wechat-023
+slug: post-18
+translationStatus: placeholder
+sourceHash: 084a9831ca4a48394b7c77730496e438cff421b7
 ---
 原创 zixia 2025-05-16 18:16 西班牙
 

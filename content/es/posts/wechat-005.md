@@ -1,9 +1,11 @@
 ---
-title: "古代中国，其实曾让整个欧洲望尘莫及"
-date: 2026-01-09
+title: 古代中国，其实曾让整个欧洲望尘莫及
+date: 2026-01-09T00:00:00.000Z
 draft: false
-translationKey: "wechat-005"
-slug: "post"
+translationKey: wechat-005
+slug: post-5
+translationStatus: placeholder
+sourceHash: 278e952e84716ab3808f30c5abba2a3539622fa4
 ---
 原创 zixia 2026-01-10 00:46 西班牙
 

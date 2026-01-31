@@ -1,9 +1,11 @@
 ---
-title: "Chulilla悬崖小镇徒步路线分享，6公里穿越千年时空"
-date: 2025-01-28
+title: Chulilla悬崖小镇徒步路线分享，6公里穿越千年时空
+date: 2025-01-28T00:00:00.000Z
 draft: false
-translationKey: "wechat-030"
-slug: "chulilla-"
+translationKey: wechat-030
+slug: chulilla--2
+translationStatus: placeholder
+sourceHash: 9365be9c087ca52570ece56f0bb68d94a69d2cff
 ---
 2025-01-28 23:52 西班牙
 

@@ -1,9 +1,11 @@
 ---
-title: "西班牙街道蓝线停车必备APP及机场长时停车省钱攻略"
-date: 2025-05-26
+title: 西班牙街道蓝线停车必备APP及机场长时停车省钱攻略
+date: 2025-05-26T00:00:00.000Z
 draft: false
-translationKey: "wechat-021"
-slug: "app"
+translationKey: wechat-021
+slug: app-2
+translationStatus: placeholder
+sourceHash: e4c866427d99da8950a5b3b5e99f3a3f349ec2f1
 ---
 原创 zixia 2025-05-26 22:30 西班牙
 

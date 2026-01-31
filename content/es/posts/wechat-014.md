@@ -1,9 +1,11 @@
 ---
-title: "从涌现到智能相变：大语言模型如何“感应”高维空间"
-date: 2025-10-17
+title: 从涌现到智能相变：大语言模型如何“感应”高维空间
+date: 2025-10-17T00:00:00.000Z
 draft: false
-translationKey: "wechat-014"
-slug: "post"
+translationKey: wechat-014
+slug: post-12
+translationStatus: placeholder
+sourceHash: 95267b37c8f4d52267394c93e8097a7599611047
 ---
 原创 zixia 2025-10-18 02:30 西班牙
 

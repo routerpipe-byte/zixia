@@ -1,9 +1,11 @@
 ---
-title: "西班牙驾照路考经验"
-date: 2025-03-27
+title: 西班牙驾照路考经验
+date: 2025-03-27T00:00:00.000Z
 draft: false
-translationKey: "wechat-029"
-slug: "post"
+translationKey: wechat-029
+slug: post-21
+translationStatus: placeholder
+sourceHash: 04417f15a0e12e91f969646d10536d6bd7c228dc
 ---
 原创 zixia 2025-03-27 22:49 西班牙
 

@@ -1,9 +1,11 @@
 ---
-title: "西班牙暑假北部自驾之旅：从瓦伦西亚到科瓦东加"
-date: 2025-08-07
+title: 西班牙暑假北部自驾之旅：从瓦伦西亚到科瓦东加
+date: 2025-08-07T00:00:00.000Z
 draft: false
-translationKey: "wechat-019"
-slug: "post"
+translationKey: wechat-019
+slug: post-15
+translationStatus: placeholder
+sourceHash: 067aee7ca48317e5de96bd671ab21717fe7ae11f
 ---
 原创 zixia 2025-08-08 04:48 西班牙
 

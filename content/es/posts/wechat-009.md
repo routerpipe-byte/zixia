@@ -1,9 +1,11 @@
 ---
-title: "西班牙非盈利续签线上递签（EX01）一家三口完整实操流程（含未成年人）"
-date: 2026-01-02
+title: 西班牙非盈利续签线上递签（EX01）一家三口完整实操流程（含未成年人）
+date: 2026-01-02T00:00:00.000Z
 draft: false
-translationKey: "wechat-009"
-slug: "ex"
+translationKey: wechat-009
+slug: ex-2
+translationStatus: placeholder
+sourceHash: d1a46a41fa9bd7628b4de497d7eeee1ff4f6dc09
 ---
 原创 zixia 2026-01-02 22:45 西班牙
 

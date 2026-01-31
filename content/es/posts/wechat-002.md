@@ -1,9 +1,11 @@
 ---
-title: "从亚伯拉罕的家事，到影响全球的「唯一神」"
-date: 2026-01-14
+title: 从亚伯拉罕的家事，到影响全球的「唯一神」
+date: 2026-01-14T00:00:00.000Z
 draft: false
-translationKey: "wechat-002"
-slug: "post"
+translationKey: wechat-002
+slug: post-2
+translationStatus: placeholder
+sourceHash: d1d16cc8a68656e81e48a6dc609eb78083239a72
 ---
 原创 zixia 2026-01-15 00:29 西班牙
 

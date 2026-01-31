@@ -1,9 +1,11 @@
 ---
-title: "欧洲民族演化概述——迁徙、语言替换与制度整合的长期过程"
-date: 2026-01-07
+title: 欧洲民族演化概述——迁徙、语言替换与制度整合的长期过程
+date: 2026-01-07T00:00:00.000Z
 draft: false
-translationKey: "wechat-007"
-slug: "post"
+translationKey: wechat-007
+slug: post-7
+translationStatus: placeholder
+sourceHash: 0f676e9f9aa2043cb83e6c44d30dfb98abc2bbf0
 ---
 原创 zixia 2026-01-08 06:51 西班牙
 

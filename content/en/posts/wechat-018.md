@@ -1,9 +1,11 @@
 ---
-title: "AI有记忆吗？"
-date: 2025-08-29
+title: AI有记忆吗？
+date: 2025-08-29T00:00:00.000Z
 draft: false
-translationKey: "wechat-018"
-slug: "ai"
+translationKey: wechat-018
+slug: ai-2
+translationStatus: placeholder
+sourceHash: e3aac95e3ca43be04f3777b2beef5d02a77bd615
 ---
 原创 zixia 2025-08-30 01:28 西班牙
 

@@ -1,9 +1,11 @@
 ---
-title: "如何高效自学，快速通过西班牙汽车驾驶执照B的理论考试"
-date: 2024-12-20
+title: 如何高效自学，快速通过西班牙汽车驾驶执照B的理论考试
+date: 2024-12-20T00:00:00.000Z
 draft: false
-translationKey: "wechat-031"
-slug: "b"
+translationKey: wechat-031
+slug: b-2
+translationStatus: placeholder
+sourceHash: 7e90bfbe75f742c14cc093cc6b01573f80dab219
 ---
 原创 zixia 2024-12-21 01:40 西班牙
 

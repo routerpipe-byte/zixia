@@ -1,9 +1,11 @@
 ---
-title: "欧洲为何会走向民主？——共和国传统，并非偶然的历史选择"
-date: 2026-01-05
+title: 欧洲为何会走向民主？——共和国传统，并非偶然的历史选择
+date: 2026-01-05T00:00:00.000Z
 draft: false
-translationKey: "wechat-008"
-slug: "post"
+translationKey: wechat-008
+slug: post-8
+translationStatus: placeholder
+sourceHash: 4f0fb6d13fbe9f170a13fe9544e216107f4f1ab8
 ---
 原创 zixia 2026-01-06 06:24 西班牙
 

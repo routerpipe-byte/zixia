@@ -1,9 +1,11 @@
 ---
-title: "千年王八，万年龟？我们到底还要“想当然”到几时？"
-date: 2025-04-04
+title: 千年王八，万年龟？我们到底还要“想当然”到几时？
+date: 2025-04-04T00:00:00.000Z
 draft: false
-translationKey: "wechat-027"
-slug: "post"
+translationKey: wechat-027
+slug: post-20
+translationStatus: placeholder
+sourceHash: 76daa2a342e25eef16183fb3c1691ff07135857d
 ---
 原创 zixia 2025-04-04 21:22 西班牙
 

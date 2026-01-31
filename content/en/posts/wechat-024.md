@@ -1,9 +1,11 @@
 ---
-title: "西班牙本地人收入分析（马德里 VS 北京：谁更能过上体面生活？）"
-date: 2025-05-15
+title: 西班牙本地人收入分析（马德里 VS 北京：谁更能过上体面生活？）
+date: 2025-05-15T00:00:00.000Z
 draft: false
-translationKey: "wechat-024"
-slug: "vs"
+translationKey: wechat-024
+slug: vs-2
+translationStatus: placeholder
+sourceHash: ca830009c33e8b60be5d8ad2a577bf92e3bd76cf
 ---
 原创 zixia 2025-05-15 19:23 西班牙
 

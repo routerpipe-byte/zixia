@@ -1,9 +1,11 @@
 ---
-title: "算法之巅与逻辑之源：当《九章算术》遇见《几何原本》"
-date: 2026-01-12
+title: 算法之巅与逻辑之源：当《九章算术》遇见《几何原本》
+date: 2026-01-12T00:00:00.000Z
 draft: false
-translationKey: "wechat-003"
-slug: "post"
+translationKey: wechat-003
+slug: post-3
+translationStatus: placeholder
+sourceHash: d4bf153f95a06f73891b322bb3e0c7058cf5334f
 ---
 原创 zixia 2026-01-13 05:48 西班牙
 

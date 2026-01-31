@@ -1,9 +1,11 @@
 ---
-title: "古代中国的科举制度只有八股文么？（最早的科举是“文理双修”）"
-date: 2025-11-01
+title: 古代中国的科举制度只有八股文么？（最早的科举是“文理双修”）
+date: 2025-11-01T00:00:00.000Z
 draft: false
-translationKey: "wechat-012"
-slug: "post"
+translationKey: wechat-012
+slug: post-11
+translationStatus: placeholder
+sourceHash: 8f98aaa15d2d906a960f66a8de1a292f04c9dad0
 ---
 原创 zixia 2025-11-01 19:09 西班牙
 

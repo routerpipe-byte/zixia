@@ -1,9 +1,11 @@
 ---
-title: "汉族的民族性质：华夏血脉与中华文化的五千年传承"
-date: 2025-10-01
+title: 汉族的民族性质：华夏血脉与中华文化的五千年传承
+date: 2025-10-01T00:00:00.000Z
 draft: false
-translationKey: "wechat-016"
-slug: "post"
+translationKey: wechat-016
+slug: post-13
+translationStatus: placeholder
+sourceHash: 4aa7df3cb76eb39130f48dba12f1456dc9105c95
 ---
 原创 zixia 2025-10-02 02:48 西班牙
 

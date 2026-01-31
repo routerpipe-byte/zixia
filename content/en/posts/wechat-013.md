@@ -1,9 +1,11 @@
 ---
-title: "在西班牙没交社保，也能办SIP卡（社保卡）、打疫苗！亲身实录分享"
-date: 2025-10-30
+title: 在西班牙没交社保，也能办SIP卡（社保卡）、打疫苗！亲身实录分享
+date: 2025-10-30T00:00:00.000Z
 draft: false
-translationKey: "wechat-013"
-slug: "sip"
+translationKey: wechat-013
+slug: sip-2
+translationStatus: placeholder
+sourceHash: a7feae88d788b2d9d1ada2283a15287fa094aeba
 ---
 原创 zixia 2025-10-30 19:00 西班牙
 

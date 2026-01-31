@@ -1,9 +1,11 @@
 ---
-title: "如何在线申请西班牙钓鱼许可证"
-date: 2025-06-25
+title: 如何在线申请西班牙钓鱼许可证
+date: 2025-06-25T00:00:00.000Z
 draft: false
-translationKey: "wechat-020"
-slug: "post"
+translationKey: wechat-020
+slug: post-16
+translationStatus: placeholder
+sourceHash: 92c21df01a9ae349e46e315bc5c9acb38d6cc8cc
 ---
 原创 zixia 2025-06-26 05:07 西班牙
 

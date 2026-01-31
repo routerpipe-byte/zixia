@@ -1,9 +1,11 @@
 ---
-title: "北京到上海的距离：大语言模型的文本向量化和RAG增强向量数据库"
-date: 2025-10-16
+title: 北京到上海的距离：大语言模型的文本向量化和RAG增强向量数据库
+date: 2025-10-16T00:00:00.000Z
 draft: false
-translationKey: "wechat-015"
-slug: "rag"
+translationKey: wechat-015
+slug: rag-2
+translationStatus: placeholder
+sourceHash: 73efbe47a73fc53f8ad4716fa43666d7d44e6e43
 ---
 原创 zixia 2025-10-17 04:37 西班牙
 

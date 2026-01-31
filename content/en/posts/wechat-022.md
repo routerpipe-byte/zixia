@@ -1,9 +1,11 @@
 ---
-title: "西班牙基础教育全景对比：中国家长该知道的真相"
-date: 2025-05-24
+title: 西班牙基础教育全景对比：中国家长该知道的真相
+date: 2025-05-24T00:00:00.000Z
 draft: false
-translationKey: "wechat-022"
-slug: "post"
+translationKey: wechat-022
+slug: post-17
+translationStatus: placeholder
+sourceHash: c3d986f48b0e162d7c343c292f8ed328891191f5
 ---
 原创 zixia 2025-05-24 08:53 西班牙
 

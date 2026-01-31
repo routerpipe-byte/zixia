@@ -1,9 +1,11 @@
 ---
-title: "症状相同，病因不同——别让直觉耽误了治疗"
-date: 2025-04-16
+title: 症状相同，病因不同——别让直觉耽误了治疗
+date: 2025-04-16T00:00:00.000Z
 draft: false
-translationKey: "wechat-026"
-slug: "post"
+translationKey: wechat-026
+slug: post-19
+translationStatus: placeholder
+sourceHash: 8e9d0217eff769076501d6e2cf5752c9c7b188f9
 ---
 原创 zixia 2025-04-17 04:53 西班牙
 

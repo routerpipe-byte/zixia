@@ -1,9 +1,11 @@
 ---
-title: "《西班牙生活的缺点：2024年马德里 vs 北京详尽对比》"
-date: 2025-05-08
+title: 《西班牙生活的缺点：2024年马德里 vs 北京详尽对比》
+date: 2025-05-08T00:00:00.000Z
 draft: false
-translationKey: "wechat-025"
-slug: "-vs"
+translationKey: wechat-025
+slug: '-vs-2'
+translationStatus: placeholder
+sourceHash: 68c73a9c9034fb9864ae206aef6a92399e061a23
 ---
 原创 zixia 2025-05-08 18:08 西班牙
 
