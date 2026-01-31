@@ -37,6 +37,8 @@ export async function translateText({ text, targetLang }) {
         { role: 'user', content: user },
       ],
       temperature: 0.2,
+      // Avoid provider-side buffering by requesting streaming off explicitly
+      stream: false,
     }),
   });
 

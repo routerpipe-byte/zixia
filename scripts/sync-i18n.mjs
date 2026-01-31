@@ -3,9 +3,12 @@
 /**
  * sync-i18n.mjs
  *
- * Phase 1 (DONE): zh -> ensure slug + translationKey (UTF-8 no BOM writes)
- * Phase 2 (NOW): generate/update en/es files. If OPENAI_API_KEY is absent, keep
- *                placeholder copies but mark them and avoid pretending they're translated.
+ * Phase 1: zh -> ensure slug + translationKey (UTF-8 no BOM writes)
+ * Phase 2: generate/update en/es with translation when OPENAI_API_KEY is set.
+ *
+ * Notes:
+ * - Uses chunked translation to avoid timeouts.
+ * - Preserves Markdown structure (best-effort; code blocks/links are left intact by prompt).
  */
 
 import fs from 'fs';
@@ -18,6 +21,10 @@ import { pinyin } from 'pinyin-pro';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const TRANSLATE = !!process.env.OPENAI_API_KEY;
+const CHUNK_CHARS = Number(process.env.TRANSLATE_CHUNK_CHARS || 1800);
+const SLEEP_MS = Number(process.env.TRANSLATE_SLEEP_MS || 300);
 
 function stripBom(s) {
   if (!s) return s;
@@ -87,86 +94,105 @@ function ensureDir(p) {
   fs.mkdirSync(p, { recursive: true });
 }
 
-function isTranslatedPlaceholder(data) {
-  return data?.translationStatus === 'placeholder';
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
 }
 
-async function maybeTranslate({ text, targetLang }) {
-  if (!process.env.OPENAI_API_KEY) return null;
+function splitIntoChunks(text, maxChars) {
+  const s = String(text);
+  if (s.length <= maxChars) return [s];
+
+  const chunks = [];
+  let i = 0;
+  while (i < s.length) {
+    const end = Math.min(s.length, i + maxChars);
+    let cut = end;
+
+    // Try to cut on paragraph boundary.
+    const window = s.slice(i, end);
+    const lastPara = window.lastIndexOf('\n\n');
+    if (lastPara > 200) cut = i + lastPara + 2;
+
+    // Fallback cut on newline.
+    if (cut === end) {
+      const lastNl = window.lastIndexOf('\n');
+      if (lastNl > 200) cut = i + lastNl + 1;
+    }
+
+    chunks.push(s.slice(i, cut));
+    i = cut;
+  }
+  return chunks;
+}
+
+async function translateMarkdown(text, targetLangName) {
+  if (!TRANSLATE) return null;
   const { translateText } = await import('./translate.mjs');
-  return translateText({ text, targetLang });
+
+  const parts = splitIntoChunks(text, CHUNK_CHARS);
+  const outParts = [];
+  for (let idx = 0; idx < parts.length; idx++) {
+    const part = parts[idx];
+    const translated = await translateText({ text: part, targetLang: targetLangName });
+    outParts.push(translated);
+    if (idx < parts.length - 1) await sleep(SLEEP_MS);
+  }
+  return outParts.join('');
 }
 
-async function upsertLangVersion({
-  lang,
-  targetLangName,
-  zh,
-  outPath,
-  usedSlugs,
-}) {
+async function upsertLangVersion({ lang, targetLangName, zh, outPath, usedSlugs }) {
   const zhData = zh.data || {};
   const zhBody = zh.content || '';
 
   let data = {
     ...zhData,
-    // Force language-specific fields
     title: zhData.title,
     slug: undefined,
     translationStatus: undefined,
     sourceHash: undefined,
   };
 
-  // Slug policy: use latin slug for en/es, remove digits.
+  // language slug: latinized from title (digits removed)
   const baseSlug = slugifyLatin(String(zhData.title)).replace(/[0-9]+/g, '') || 'post';
   data.slug = ensureUniqueSlug(baseSlug, usedSlugs);
 
-  // Ensure translationKey exists (must match zh)
   if (!data.translationKey) {
     data.translationKey = path.basename(outPath, path.extname(outPath));
   }
 
-  // Incremental: avoid re-translate if zh unchanged and target already translated.
   const currentSourceHash = sha1(zhBody);
 
-  let bodyOut = zhBody;
-  const prevExists = fs.existsSync(outPath);
-  if (prevExists) {
+  // Keep existing if already translated and source unchanged
+  if (fs.existsSync(outPath)) {
     const prev = readMd(outPath);
     const prevData = prev.data || {};
     const prevBody = prev.content || '';
-
-    // keep existing translated title/body if already translated and sourceHash matches
-    if (prevData.sourceHash === currentSourceHash && !isTranslatedPlaceholder(prevData)) {
-      // Keep previous content, but update meta fields like translationKey/date/draft
-      bodyOut = prevBody;
-      data.title = prevData.title || data.title;
-      data.slug = prevData.slug || data.slug;
-      data.translationStatus = prevData.translationStatus;
-      data.sourceHash = prevData.sourceHash;
+    if (prevData.sourceHash === currentSourceHash && prevData.translationStatus === 'translated') {
+      writeMarkdownWithFrontMatter(outPath, prevData, prevBody);
+      console.log(`OK: ${lang} ${path.relative(process.cwd(), outPath)} status=translated (cached)`);
+      return;
     }
   }
 
-  if (!data.sourceHash) data.sourceHash = currentSourceHash;
+  data.sourceHash = currentSourceHash;
 
-  // Try translation if key present.
-  if (process.env.OPENAI_API_KEY) {
-    const translated = await maybeTranslate({ text: zhBody, targetLang: targetLangName });
-    if (translated) {
-      bodyOut = translated;
-      const titleTranslated = await maybeTranslate({ text: String(zhData.title), targetLang: targetLangName });
-      if (titleTranslated) data.title = titleTranslated;
+  if (TRANSLATE) {
+    const titleTranslated = await translateMarkdown(String(zhData.title), targetLangName);
+    if (titleTranslated) data.title = titleTranslated.trim();
+
+    const bodyTranslated = await translateMarkdown(zhBody, targetLangName);
+    if (bodyTranslated) {
       data.translationStatus = 'translated';
+      writeMarkdownWithFrontMatter(outPath, data, bodyTranslated);
+      console.log(`OK: ${lang} ${path.relative(process.cwd(), outPath)} status=translated`);
+      return;
     }
   }
 
-  if (!data.translationStatus) {
-    // No key: mark placeholders so you can see they are NOT translated.
-    data.translationStatus = 'placeholder';
-  }
-
-  ensureDir(path.dirname(outPath));
-  writeMarkdownWithFrontMatter(outPath, data, bodyOut);
-  console.log(`OK: ${lang} ${path.relative(process.cwd(), outPath)} status=${data.translationStatus}`);
+  // Fallback placeholder
+  data.translationStatus = 'placeholder';
+  writeMarkdownWithFrontMatter(outPath, data, zhBody);
+  console.log(`OK: ${lang} ${path.relative(process.cwd(), outPath)} status=placeholder`);
 }
 
 async function main() {
@@ -201,45 +227,23 @@ async function main() {
       continue;
     }
 
-    // translationKey - keep basename compatibility (wechat-XXX)
     if (!data.translationKey) {
       data.translationKey = path.basename(full, path.extname(full));
     }
 
-    // zh slug
     if (!data.slug || /^hanzi-hanzi(?:-[a-z]+)?$/i.test(String(data.slug))) {
       const baseSlug = toZhPinyinSlug(data.title);
       data.slug = ensureUniqueSlug(baseSlug, usedZhSlugs);
-    } else {
-      const cleaned = slugifyLatin(String(data.slug)).replace(/[0-9]+/g, '');
-      if (cleaned && cleaned !== data.slug) {
-        data.slug = ensureUniqueSlug(cleaned, usedZhSlugs);
-      }
     }
 
-    // Write back zh if changed.
-    const zhOut = matter.stringify(body, data);
-    fs.writeFileSync(full, zhOut, { encoding: 'utf8' });
+    fs.writeFileSync(full, matter.stringify(body, data), { encoding: 'utf8' });
 
-    // Generate en/es.
     const key = String(data.translationKey);
     const enPath = path.join(contentRoot, 'en', 'posts', `${key}.md`);
     const esPath = path.join(contentRoot, 'es', 'posts', `${key}.md`);
 
-    await upsertLangVersion({
-      lang: 'en',
-      targetLangName: 'English',
-      zh: { data, content: body },
-      outPath: enPath,
-      usedSlugs: usedEnSlugs,
-    });
-    await upsertLangVersion({
-      lang: 'es',
-      targetLangName: 'Spanish',
-      zh: { data, content: body },
-      outPath: esPath,
-      usedSlugs: usedEsSlugs,
-    });
+    await upsertLangVersion({ lang: 'en', targetLangName: 'English', zh: { data, content: body }, outPath: enPath, usedSlugs: usedEnSlugs });
+    await upsertLangVersion({ lang: 'es', targetLangName: 'Spanish', zh: { data, content: body }, outPath: esPath, usedSlugs: usedEsSlugs });
   }
 }
 
